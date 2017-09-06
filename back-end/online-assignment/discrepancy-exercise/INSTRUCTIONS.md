@@ -1,8 +1,16 @@
-## Problem
+# Introduction
+
+Hey there :) Please find below the coding assignment instructions.
+
+- You are free to choose whatever programming language or framework you feel most comfortable in.
+- We always prefer simple and concise solutions so we encourage you to keep your code simple and to the point :)
+- Please upload your final solution as a zip file (max 20MB). If you have problems uploading the zip file please get in touch with us.
+
+# Problem
 
 We are given advertising metrics for two companies. We want to calculate **if there is a discrepancy/difference** between the two datasets.
 
-## Dataset format
+# Dataset format
 
 The data is in JSON files and the two companies use the exact same JSON format.
 
@@ -17,11 +25,11 @@ Each JSON file contains a list of objects (one for each hour) and each object ha
 
 You can view a sample here: https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json
 
-## Objective
+# Objective
 
 We want to create a system which will take as input the two datasets (one for Company A and one for Company B) and will return a list of the hours for which we detected a discrepancy higher than 5% in any of the two metrics (spend and impressions). 
 
-## Deliverables
+# Deliverables
 
 In your uploaded solution you should include:
 
@@ -31,9 +39,9 @@ In your uploaded solution you should include:
 
 - Any special instructions on how to run your code (in a txt file)
 
-## Test cases
+# Test cases
 
-### Test case 1 (No discrepancies detected)
+## Test case 1 (No discrepancies detected)
 
 Company A dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json
 
@@ -41,7 +49,7 @@ Company B dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-no
 
 Expected output: Empty list
 
-### Test case 2 (Discrepancies detected)
+## Test case 2 (Discrepancies detected)
 
 Company A dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json
 
@@ -49,20 +57,10 @@ Company B dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-di
 
 Expected output: https://s3.amazonaws.com/avocarrot-hiring/backend/expected-discrepancies.json
 
-## How will we assess your solution?
+# How will we assess your solution?
 
 **Completness:** Did you complete the implementation of the solution?
 
 **Test cases:** Did you write passing tests for the test cases listed above?
 
-**Code structure:** Is your code clean and readable? Do you write code that is testable, extensible and reusable? 
-
-## Notes
-
-- You can use any programming language or framework you want
-
-- You may assume that the two given datasets are always valid
-
-- Upload your solution as a zip file
-
-- Feel free to add unit tests for your code if you wish
+**Code structure:** Is your code clean and readable? Do you write code that is testable, extensible and reusable?

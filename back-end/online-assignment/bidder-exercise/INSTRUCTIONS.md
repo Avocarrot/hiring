@@ -77,11 +77,10 @@ In your uploaded solution you should include:
 - Passing end-to-end tests for the test cases listed above.
 - Step-by-step instructions on how to run your code and tests (how to compile, how to install dependencies, how to run code etc). 
 
-# How we will assess your solution?
+# How will we assess your solution?
+
+**Completness:** Did you complete the implementation of the solution?
+
+**Test cases:** Did you write passing tests for the test cases listed above?
 
 **Code structure:** Is your code clean and readable? Do you write code that is testable, extensible and reusable?
-
-**Testing:** Did you write passing tests for the test cases listed above? Is your code covered by tests?
-
-- **Completness:** Did you complete the implementation of the solution? However, please note that this is not the most important factor we are looking at. We prefer incomplete solutions that follow good engineering practices.
-

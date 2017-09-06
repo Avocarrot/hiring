@@ -6,8 +6,8 @@ If you are a candidate you can find the instructions for online assignments and 
 
 # Contents
 
-- [Back-end interviews](back-end/README.md)
-- [Front-end interviews](front-end/README.md)
+- [Back-end interviews](back-end/index.md)
+- [Front-end interviews](front-end/index.md)
 
 # Questions
 
