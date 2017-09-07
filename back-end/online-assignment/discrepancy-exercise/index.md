@@ -1,10 +1,4 @@
-# Introduction
-
-Hey there :) Please find below the coding assignment instructions.
-
-- You are free to choose whatever programming language or framework you feel most comfortable in.
-- We always prefer simple and concise solutions so we encourage you to keep your code simple and to the point :)
-- Please upload your final solution as a zip file (max 20MB). If you have problems uploading the zip file please get in touch with us.
+{% include online-assignment/intro.md %}
 
 # Problem
 
@@ -56,11 +50,3 @@ Company A dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.js
 Company B dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-discrepancies.json
 
 Expected output: https://s3.amazonaws.com/avocarrot-hiring/backend/expected-discrepancies.json
-
-# How will we assess your solution?
-
-**Completness:** Did you complete the implementation of the solution?
-
-**Test cases:** Did you write passing tests for the test cases listed above?
-
-**Code structure:** Is your code clean and readable? Do you write code that is testable, extensible and reusable?
