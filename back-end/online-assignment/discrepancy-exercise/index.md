@@ -1,7 +1,5 @@
 {% include online-assignment/intro.md %}
 
-{% include online-assignment/assessment-criteria.md %}
-
 # Problem
 
 We are given advertising metrics for two companies. We want to calculate **if there is a discrepancy/difference** between the two datasets.
@@ -52,3 +50,5 @@ Company A dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.js
 Company B dataset: https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-discrepancies.json
 
 Expected output: https://s3.amazonaws.com/avocarrot-hiring/backend/expected-discrepancies.json
+
+{% include online-assignment/assessment-criteria.md %}
