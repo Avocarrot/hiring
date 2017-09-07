@@ -26,7 +26,7 @@ Please click on the position you have applied for to get the instructions for on
 
 ## Candidate FAQ
 
-Please read our Candidate FAQ [here](CANDIDATE-FAQ.md)
+Please read our Candidate FAQ [here](CANDIDATE-FAQ.md).
 
 # For Contributors
 
