@@ -13,9 +13,8 @@ The typical flow of a bidder is:
 - Bidder receives and parses a bid request from an ad exchange.
 - Bidder retrieves all the available campaigns from its campaign pool.
 - Bidder filters out campaigns that do not match the targeting criteria.
-- If there are matching campaigns then the bidder finds the highest paying campaign and submits a bid for that campaign. 
+- If there are matching campaigns then the bidder finds the highest paying campaign and submits a bid for that campaign to the ad exchange. 
 - Otherwise the bidder submits an empty response with no bid.
-- When the exchange receives our bid it runs an auction and if we win then we get to show our ad in the mobile app traffic. 
 
 This whole process repeats for every new request in real-time and usually takes less than 150ms!
 
@@ -55,15 +54,15 @@ In your uploaded solution you should include:
 
 1. The complete working code (so that we can run your solution on our machines).
 2. Step-by-step instructions on how to run your code and tests (how to compile, how to install dependencies, how to run code etc). 
-3. Passing end-to-end tests for the test cases listed below.
+3. Passing end-to-end tests for the [test cases](#end-to-end-test-cases) listed below.
 
-## Test cases
+## End-to-end test cases
 
-| Number | Description | Expected input | Expected input | 
-|---|---|---|---|
-| 1 | Bidder should respond with a bid for the highest paying campaign if there is one | TODO | TODO |
-| 2 | Bidder should respond without a bid if there no available or matching campaigns | TODO | A bid response with no body and status code 204 as specified in the [Bidder API](http://docs.bidderapi.apiary.io/). |
-| 3 | If we set a pacing of 100 bids per minute per campaign then bidder should respect this pacing requirement | TODO | TODO |
+| Description | Expected input | Expected input | Parameters |
+|---|---|---|
+| Bidder should respond with a bid for the highest paying campaign if there is one. | [Sample Bid Request](test-cases/test-case-1-input.json) | [Expected Bid Response](test-cases/ßoutput.json) | You should use the [this mock response](test-cases/mock-campaign-api-response.json) from the Campaign API | 
+| Bidder should respond without a bid if there no available or matching campaigns. | [Sample Bid Request](test-cases/test-case-2-input.json) | Bid response with no body and status code 204 as specified [here](http://docs.bidderapi.apiary.io/#reference/0/ask-bidder-to-submit-a-bid/bid-response-without-a-bid). | You should use the [this mock response](test-cases/mock-campaign-api-response.json) from the Campaign API. |
+| If we set a pacing of 100 bids per minute per campaign then bidder should respect this pacing requirement | [Sample Bid Request](test-cases/test-case-1-input.json) | TODO | Set pacing for campaigns at 100 bids per minute |
 
 # Mocking external dependencies
 
