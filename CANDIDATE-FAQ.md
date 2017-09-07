@@ -1,6 +1,6 @@
 # Candidate FAQ
 
-## Tech and Team FAQ
+## Tech and Team
 
 ### What is your stack?
 
@@ -36,13 +36,17 @@ It is our belief that the candidates should meet as many people from our team as
 
 ### Can I bring my own laptop/equipment at the on-site interviews?
 
-Of course. You are actually encouraged to bring your own equipment so that you feel more comfortable and you are more producitve. In case, you cannot bring your laptop we can provide one. 
+Of course. You are actually encouraged to bring your own equipment so that you feel more comfortable and producitve. In case, you cannot bring your laptop we can provide one. 
 
 ### Where is the office located in Athens?
 
 The office is located right next to Kerameikos metro station.
 The address is: 
+
 2nd floor
+
 52 Konstantinoupoleos Street,
+
 11854
+
 Athens, Greece

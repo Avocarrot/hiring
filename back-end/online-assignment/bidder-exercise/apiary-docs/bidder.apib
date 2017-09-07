@@ -1,0 +1,74 @@
+FORMAT: 1A
+HOST: http://bidder.apiblueprint.org/
+
+# Bidder API
+
+This document specifies the iterface for the Blue Banana bidder. 
+
+Below you can find descriptions and examples for the bid request and bid response formats.
+
+## Ask Bidder To Submit A Bid [/bid]
+
+The bidder receives requests from an ad exchange and it responds back either with a bid or without one. You can see examples of both cases below.
+
+### Bid Response With A Bid [POST]
+
++ Request
+  
+  + Headers
+    Content-Type:application/json
+  
+  + Attributes (BidRequest)
+
++ Response 200 (application/json)
+
+  + Attributes (BidResponse)
+
+### Bid Response Without A Bid [POST]
+
++ Request
+  
+  + Headers
+    Content-Type:application/json
+  
+  + Attributes (BidRequest)
+
++ Response 204
+
+# Data Structures
+
+## BidRequest (object)
+
++ id: `e7fe51ce4f6376876353ff0961c2cb0d` (required, string) - The unique identifier of the bid request.
++ app: (required, App) - Details about the app where the traffic is coming from.
++ device: (required, Device) - Details about the user’s device to which the impression will be delivered.
+
+## App (object)
+
++ id: `e7fe51ce-4f63-7687-6353-ff0961c2cb0d` (required, string) - The app unique identifier.
++ name: `Morecast Weather` (required, string) - The app name.
+
+## Device (object)
+
++ os: `Android` (required, enum[string]) - Device operating system
+    + Members
+        + `Android` 
+        + `iOS`
++ geo: (required, Geo) - Location of the device assumed to be the user’s current location.
+
+## Geo (object)
+
++ country: `USA` (required, string) - Country code using ISO-3166-1-alpha-3.
++ lat: 00.000 (optional, number) - Latitude from ­90.0 to +90.0, where negative is south.
++ lon: 00.000 (optional, number) - Longitude from ­180.0 to +180.0, where negative is west.
+
+## BidResponse (object)
+
++ id: `e7fe51ce4f6376876353ff0961c2cb0d` (required, string) - The unique identifier of the bid request.
++ bid: (Bid, nullable) - Information about the bid.
+
+## Bid (object)
+
++ campaignId: 5a3dce46 (required, string) - The campaign id.
++ price: 1.2 (required, number) - The bid price.
++ adm: `<a href="http://example.com/click/qbFCjzXR9rkf8qa4"><img src="http://assets.example.com/ad_assets/files/000/000/002/original/banner_300_250.png" height="250" width="300" alt=""/></a><img src="http://example.com/win/qbFCjzXR9rkf8qa4" height="1" width="1" alt=""/>` (required, string) - The ad markup.

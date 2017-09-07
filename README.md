@@ -30,4 +30,17 @@ Please read our Candidate FAQ [here](CANDIDATE-FAQ.md).
 
 # For Contributors
 
-If you wish to contribute to this repo feel free to submit your pull requests.
+Our hiring material is open source since at Avocarrot we are big believers in the open source community. If you wish to contribute to this repo feel free to submit your pull requests.
+
+## Setup your development environment
+
+In order to preview the pages of this guide on your local machine you can follow the steps below:
+
+```
+gem install github-pages
+gem install bundler
+bundle exec jekyll build
+bundle exec jekyll serve
+```
+
+The page now runs at ```http://127.0.0.1:4000``` or ```http://localhost:4000```.
