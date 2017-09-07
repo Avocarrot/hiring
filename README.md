@@ -10,12 +10,12 @@ Please find all our open positions [here](https://avocarrot.workable.com/).
 
 ## Recruitment process
 
-Our recruitment process involves 4 steps:
-
-1. CV review - We review candidates' CV applications looking mainly at past projects, open source contributions and expertise. We do **not** look for specific language or framework expertise!
-2. Online assignment - Candidates receive an assignment based on real-life work we do at Avocarrot. 
-3. On-site interview - This part extends the work the candidate has done in the online assignment. The candidate works with our team on designing and implementing a software system.
-4. Offer - An offer is made to the candidate.
+| Step | Description |
+|---|---|
+| CV review | We review candidates' CV applications looking mainly at past projects and areas of expertise. |
+| Online assignment | Candidates receive an assignment based on real-life work we do at Avocarrot. |
+| On-site interview | This part extends the work the candidate has done in the online assignment. The candidate works with our team on designing and implementing a software system. |
+| Offer | An offer is made to the candidate. |
 
 ## Next steps
 

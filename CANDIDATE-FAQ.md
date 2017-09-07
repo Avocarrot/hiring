@@ -4,16 +4,30 @@
 
 ### What is your stack?
 
-Our product is multi-faceted and comprised of smaller modular parts which help us move faster in development but also achieve the scalability we want. At the moment we serve more than 10B ads per month. The product has 4 main parts:
+Since the early days of Avocarrot we have embraced the microservice architecture mindset. For this reason our system is comprised of smaller modular services which help us move faster in development but also achieve the scalability we want. The product has 4 main parts:
 
-- The mobile SDK which are written in Java for Android and Swift for iOS. 
-- The second is the platform which is used by our users to interact with our systems and it's built using Ember and React.js. 
-- The 3rd component is the ad serving pipeline which is broken down into smaller microservices using technologies like Go, Scala, Python, Java and Node.js. 
-- The final part is our data pipeline which is built using tools like Apache Kafka and Spark, Hadoop and Druid.
+| Part | Technologies |
+|---|---|
+| Ad serving pipeline | Go, Scala, Python, Java and Node.js, AWS, Ansible |
+| Data pipeline | Apache Kafka and Spark, Haddop and Druid |
+| Front-end user platforms | Ember.js and React.js |
+| Mobile SDKs | Java (Android), Swift (iOS)  |
+
+### Where are your services hosted?
+
+Most of our services are either deployed on AWS or at our own private datacenter.
+
+### What version control systems do you use?
+
+Github and Gitlab.
 
 ### What methodologies do you use?
 
 We are split into small cross-functional teams of 5-8 people and each team is free to choose their own methodology and tooling. Most of our teams use Kanban.
+
+### Do you contribute on open source projects?
+
+We have been active in both contributing and publishing open source code. You can check our Github page [here](https://github.com/Avocarrot).
 
 ### What are the working hours?
 
