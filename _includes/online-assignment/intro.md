@@ -1,6 +1,6 @@
 # Introduction
 
-Hey there :) Please find below the coding assignment instructions.
+Hey there :)
 
 - Please read the instructions below carefully to find out more info about deliverables, assesment criteria and tasks. 
 - You are free to choose whatever programming language or framework you feel most comfortable in.

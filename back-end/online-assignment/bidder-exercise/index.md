@@ -48,15 +48,9 @@ For the final task we want to implement a basic pacing algorithm. The pacing con
 
 Take for example a pacing of 100 bids per minute. This means that for each campaign we are only allowed to bid at most 100 times per minute. If this threshold is exceeded for a campaign then no more bids from that campaign should occur until the minute has passed.
 
-# Deliverables
+{% include online-assignment/deliverables.md %}
 
-In your uploaded solution you should include:
-
-1. The complete working code (so that we can run your solution on our machines).
-2. Step-by-step instructions on how to run your code and tests (how to compile, how to install dependencies, how to run code etc). 
-3. Passing end-to-end tests for the [test cases](#end-to-end-test-cases) listed below.
-
-## End-to-end test cases
+# End-to-end test cases
 
 | Description | Expected input | Expected input | Parameters |
 |---|---|---|

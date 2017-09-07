@@ -45,4 +45,4 @@ bundle exec jekyll serve
 
 The page now runs at ```http://127.0.0.1:4000``` or ```http://localhost:4000```.
 
-_Note: If you face any problems setting your local env please read the guide [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)._ 
+Note: If you face any problems setting your local env please read the guide [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/). 

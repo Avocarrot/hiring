@@ -9,7 +9,7 @@ Since the early days of Avocarrot we have embraced the microservice architecture
 | Part | Technologies |
 |---|---|
 | Ad serving pipeline | Go, Scala, Python, Java and Node.js, AWS, Ansible |
-| Data pipeline | Apache Kafka and Spark, Haddop and Druid |
+| Data pipeline | Apache Kafka and Spark, Hadoop and Druid |
 | Front-end user platforms | Ember.js and React.js |
 | Mobile SDKs | Java (Android), Swift (iOS)  |
 
