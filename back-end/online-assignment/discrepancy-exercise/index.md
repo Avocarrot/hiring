@@ -28,7 +28,7 @@ We want to create a system which will take as input the two datasets (one for Co
 
 # End-to-end test cases
 
-| Description | Expected input | Expected input |
+| Description | Expected input | Expected output |
 |---|---|---|
 | No discrepancies detected | [Company A dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json) and [Company B dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-no-discrepancies.json) | Empty list |
 | Discrepancies detected | [Company A dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json) and [Company B dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-discrepancies.json) | [Expected output](https://s3.amazonaws.com/avocarrot-hiring/backend/expected-discrepancies.json) |

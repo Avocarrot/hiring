@@ -20,8 +20,6 @@ This whole process repeats for every new request in real-time and usually takes 
 
 Check the diagram below for an illustration of the bidding process.
 
-[TODO: Diagram]
-
 # Tasks
 
 The assignment is split into seperate tasks. Each task builds on the work done for the previous ones. 
@@ -52,15 +50,15 @@ Take for example a pacing of 100 bids per minute. This means that for each campa
 
 # End-to-end test cases
 
-| Description | Expected input | Expected input | Parameters |
-|---|---|---|
-| Bidder should respond with a bid for the highest paying campaign if there is one. | [Sample Bid Request](test-cases/test-case-1-input.json) | [Expected Bid Response](test-cases/ßoutput.json) | You should use the [this mock response](test-cases/mock-campaign-api-response.json) from the Campaign API | 
-| Bidder should respond without a bid if there no available or matching campaigns. | [Sample Bid Request](test-cases/test-case-2-input.json) | Bid response with no body and status code 204 as specified [here](http://docs.bidderapi.apiary.io/#reference/0/ask-bidder-to-submit-a-bid/bid-response-without-a-bid). | You should use the [this mock response](test-cases/mock-campaign-api-response.json) from the Campaign API. |
-| If we set a pacing of 100 bids per minute per campaign then bidder should respect this pacing requirement | [Sample Bid Request](test-cases/test-case-1-input.json) | TODO | Set pacing for campaigns at 100 bids per minute |
+| Description | Expected input | Expected output | Parameters |
+|---|---|---|---|
+| Bidder should respond with a bid for the highest paying campaign that matches the targeting criteria. | [Sample Bid Request](test-cases/test-case-1-input.json) | [Expected Bid Response](test-cases/output.json) | Use [this response](test-cases/mock-campaign-api-response.json) for the Campaign API mock. | 
+| Bidder should respond without a bid if there no available or matching campaigns. | [Sample Bid Request](test-cases/test-case-2-input.json) | Bid response with no body and status code 204 as specified [here](http://docs.bidderapi.apiary.io/#reference/0/ask-bidder-to-submit-a-bid/bid-response-without-a-bid). | Use [this response](test-cases/mock-campaign-api-response.json) for the Campaign API mock. |
+| If we have reached the pacing threshold for a campaign then bidder should not bid with it | [Sample Bid Request](test-cases/test-case-1-input.json) | TODO | Set pacing for campaigns at 100 bids per minute |
 
 # Mocking external dependencies
 
-For your bidder implementation you depend on an external service exposing the [Campaign API](http://docs.campaignapi9.apiary.io/#). There is no instance of this service running therefore in your solution and tests, we expect to see this dependency mocked to simulate the real production functionality.
+Your bidder implementation depends on an external service which exposes the [Campaign API](http://docs.campaignapi9.apiary.io/#). There is no instance of this service running therefore in your solution and tests, we expect to see this dependency mocked to simulate the real production functionality.
 
 Please avoid hardcoding API reponses from external services! 
 
