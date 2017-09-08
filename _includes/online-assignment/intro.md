@@ -2,6 +2,7 @@
 
 Hey there :)
 
-- Please read the instructions carefully before start writing your code. It includes important information about deliverables, assesment criteria and tasks. 
+- Please read the instructions carefully before start writing your code. 
 - You are free to choose whatever programming language or framework you feel most comfortable in.
-- Please upload your final solution as a zip file (max 20MB). If you have problems uploading the zip file please get in touch with us.
+- The instructions below include the expected time of finishing this assignment. If you spend significantly more time than expected then please check if your implementation does more things than the assignment asks for. 
+- If something is not clear to you please do not hesitate to get in touch with us for clarifications. We'd love to help you out!
