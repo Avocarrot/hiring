@@ -6,9 +6,9 @@ You are a software engineer for an advertising technology company called Blue Ba
 
 # What is a real-time bidder?
 
-A bidder is simply a platform which allows advertisers to submit bids to buy mobile ad space in real-time. A bidder receives bid requests from 3rd-party ad exchanges and responds back with a bid response. This bid then competes with bids from other bidders in a real-time auction at the exchange. The highest bid (in terms of bid price) wins and gets to show its ad. 
+A bidder is simply a platform which allows advertisers to submit bids to buy mobile ad space in real-time. A bidder receives bid requests from 3rd-party ad exchanges and responds back with a bid response. This bid then competes with bids from other bidders in a real-time auction at the exchange. The highest bid (in terms of bid price) wins and gets to show its ad. You can see this process illustrated below.
   
-<!-- ![auction-process](/static/auction-process.jpg){:class="img-responsive"} -->
+![auction-process](/static/auction-process.jpg){:class="img-responsive"}
 
 For this assignment we will focus on building a bidder so you do not need to worry about what happens at the ad exchange. If we zoom into what a bidder does then the typical flow is outlined below:
 
@@ -18,7 +18,7 @@ For this assignment we will focus on building a bidder so you do not need to wor
 - If there are matching campaigns then the bidder finds the highest paying campaign and submits a bid for that campaign to the ad exchange. 
 - Otherwise the bidder submits an empty response with no bid.
 
-This whole process repeats for every new request in real-time and usually takes less than 150ms!
+![bidder-process](/static/bidder-process.jpg){:class="img-responsive"}
 
 # Tasks
 
@@ -44,7 +44,7 @@ You will need to implement the basic flow of a bidder which was described above.
 
 ### End-to-end test cases
 
-In order for the task to be completed your codebase should implement the following test cases. 
+In order for the task to be completed your codebase should implement the following test cases.
 
 | Description | Expected input | Expected output | Parameters/Mocks |
 |---|---|---|---|
@@ -55,9 +55,11 @@ In order for the task to be completed your codebase should implement the followi
 
 ### Objective
 
-For the final task we want to implement a basic pacing algorithm. The pacing controls the rythm by which we are alowed to bid for a given campaign. 
+For the final task we want to implement a basic pacing algorithm. The pacing essentially controls how many times we can bid for a campaign in a given time period. 
 
-Take for example a pacing of 100 bids per minute. This means that for each campaign we are only allowed to bid at most 100 times per minute. If this threshold is exceeded for a campaign then no more bids from that campaign should occur until the minute has passed.
+### Example
+
+Let's take for example a pacing of 100 bids per minute and two campaigns: campaign A and campaign B. So far in the last one minute we have sent 100 bids for campaign A and 20 for campaign B. This means that campaign A has reached its pacing limit and therefore we cannot bid with it anymore. Campaign B is still well below the threshold so we can consider this campaign for our next bid. Every minute we reset the counts and begin counting again.
 
 ### End-to-end test cases
 

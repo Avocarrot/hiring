@@ -18,7 +18,7 @@ Each JSON file contains a list of objects (one for each hour) and each object ha
 | spend | decimal | The total spend/revenue generated in this hour |
 | impressions | integer | The total impressions (ad views) generated in this hour |
 
-You can view a sample [here](https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json).
+You can view a sample [here](/test-cases/companyA.json).
 
 # Objective
 
@@ -30,7 +30,7 @@ We want to create a system which will take as input the two datasets (one for Co
 
 | Description | Expected input | Expected output |
 |---|---|---|
-| No discrepancies detected | [Company A dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json) and [Company B dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-no-discrepancies.json) | Empty list |
-| Discrepancies detected | [Company A dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyA.json) and [Company B dataset](https://s3.amazonaws.com/avocarrot-hiring/backend/companyB-discrepancies.json) | [Expected output](https://s3.amazonaws.com/avocarrot-hiring/backend/expected-discrepancies.json) |
+| No discrepancies detected | [Company A dataset](/test-cases/companyA.json) and [Company B dataset](/test-cases/companyB-no-discrepancies.json) | Empty list |
+| Discrepancies detected | [Company A dataset](/test-cases/companyA.json) and [Company B dataset](/test-cases/companyB-discrepancies.json) | [Expected output](/test-cases/expected-discrepancies.json) |
 
 {% include online-assignment/assessment-criteria.md %}

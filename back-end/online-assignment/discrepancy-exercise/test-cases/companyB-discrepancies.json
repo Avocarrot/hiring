@@ -1,0 +1,122 @@
+[
+    {
+        "timestamp": "2016-08-05T00:00:00",
+        "impressions": 895,
+        "spend": 16.6
+    },
+    {
+        "timestamp": "2016-08-05T01:00:00",
+        "impressions": 1442,
+        "spend": 32.59
+    },
+    {
+        "timestamp": "2016-08-05T02:00:00",
+        "impressions": 736,
+        "spend": 8.74
+    },
+    {
+        "timestamp": "2016-08-05T03:00:00",
+        "impressions": 299,
+        "spend": 16.93
+    },
+    {
+        "timestamp": "2016-08-05T04:00:00",
+        "impressions": 778,
+        "spend": 10.71
+    },
+    {
+        "timestamp": "2016-08-05T05:00:00",
+        "impressions": 398,
+        "spend": 41.47
+    },
+    {
+        "timestamp": "2016-08-05T06:00:00",
+        "impressions": 2320,
+        "spend": 40.1
+    },
+    {
+        "timestamp": "2016-08-05T07:00:00",
+        "impressions": 2242,
+        "spend": 8.9
+    },
+    {
+        "timestamp": "2016-08-05T08:00:00",
+        "impressions": 464,
+        "spend": 28.71
+    },
+    {
+        "timestamp": "2016-08-05T09:00:00",
+        "impressions": 1142,
+        "spend": 32.67
+    },
+    {
+        "timestamp": "2016-08-05T10:00:00",
+        "impressions": 2223,
+        "spend": 16.61
+    },
+    {
+        "timestamp": "2016-08-05T11:00:00",
+        "impressions": 1649,
+        "spend": 12.66
+    },
+    {
+        "timestamp": "2016-08-05T12:00:00",
+        "impressions": 249,
+        "spend": 36.81
+    },
+    {
+        "timestamp": "2016-08-05T13:00:00",
+        "impressions": 774,
+        "spend": 1.24
+    },
+    {
+        "timestamp": "2016-08-05T14:00:00",
+        "impressions": 1706,
+        "spend": 4.2
+    },
+    {
+        "timestamp": "2016-08-05T15:00:00",
+        "impressions": 1492,
+        "spend": 37.24
+    },
+    {
+        "timestamp": "2016-08-05T16:00:00",
+        "impressions": 1209,
+        "spend": 16.51
+    },
+    {
+        "timestamp": "2016-08-05T17:00:00",
+        "impressions": 2184,
+        "spend": 43.22
+    },
+    {
+        "timestamp": "2016-08-05T18:00:00",
+        "impressions": 1145,
+        "spend": 41.09
+    },
+    {
+        "timestamp": "2016-08-05T19:00:00",
+        "impressions": 11,
+        "spend": 37.56
+    },
+    {
+        "timestamp": "2016-08-05T20:00:00",
+        "impressions": 1360,
+        "spend": 30.65
+    },
+    {
+        "timestamp": "2016-08-05T21:00:00",
+        "impressions": 552,
+        "spend": 32.76
+    },
+    {
+        "timestamp": "2016-08-05T22:00:00",
+        "impressions": 1562,
+        "spend": 9.0
+    },
+    {
+        "timestamp": "2016-08-05T23:00:00",
+        "impressions": 263,
+        "spend": 2.45
+    }
+]
