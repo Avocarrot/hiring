@@ -6,9 +6,11 @@ You are a software engineer for an advertising technology company called Blue Ba
 
 # What is a real-time bidder?
 
-A bidder is simply a platform which allows advertisers to bid on mobile traffic in real-time. The traffic comes from 3rd-party ad exchanges (you do not need to worry about what an ad exchange does).
+A bidder is simply a platform which allows advertisers to submit bids to buy mobile ad space in real-time. A bidder receives bid requests from 3rd-party ad exchanges and responds back with a bid response. This bid then competes with bids from other bidders in a real-time auction at the exchange. The highest bid (in terms of bid price) wins and gets to show its ad. 
+  
+<!-- ![auction-process](/static/auction-process.jpg){:class="img-responsive"} -->
 
-The typical flow of a bidder is:
+For this assignment we will focus on building a bidder so you do not need to worry about what happens at the ad exchange. If we zoom into what a bidder does then the typical flow is outlined below:
 
 - Bidder receives and parses a bid request from an ad exchange.
 - Bidder retrieves all the available campaigns from its campaign pool.
