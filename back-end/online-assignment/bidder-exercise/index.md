@@ -8,7 +8,7 @@ You are a software engineer for an advertising technology company called Blue Ba
 
 A bidder is simply a platform which allows advertisers to submit bids to buy mobile ad space in real-time. A bidder receives bid requests from 3rd-party ad exchanges and responds back with a bid response. This bid then competes with bids from other bidders in a real-time auction at the exchange. The highest bid (in terms of bid price) wins and gets to show its ad. You can see this process illustrated below.
   
-![auction-process](/static/auction-process.jpg){:class="img-responsive"}
+![auction-process](/static/auction-process.jpg){:width="100%"}
 
 For this assignment we will focus on building a bidder so you do not need to worry about what happens at the ad exchange. If we zoom into what a bidder does then the typical flow is outlined below:
 
@@ -18,7 +18,7 @@ For this assignment we will focus on building a bidder so you do not need to wor
 - If there are matching campaigns then the bidder finds the highest paying campaign and submits a bid for that campaign to the ad exchange. 
 - Otherwise the bidder submits an empty response with no bid.
 
-![bidder-process](/static/bidder-process.jpg){:class="img-responsive"}
+![bidder-process](/static/bidder-process.jpg){:width="100%"}
 
 # Tasks
 
