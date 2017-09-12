@@ -26,8 +26,8 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 | Task Objective | Expected Completion Time |
 |---|---|
-| [Task 1:](#task-1) Implement the basic bidder flow | ~1.5 hours |
-| [Task 2:](#task-2) Implement a basic pacing algorithm | ~3 hours |
+| [Task 1:](#task-1) Implement the basic bidder flow | ~2 hours |
+| [Task 2:](#task-2) Implement a basic pacing algorithm | ~4 hours |
 
 ## Task 1
 
