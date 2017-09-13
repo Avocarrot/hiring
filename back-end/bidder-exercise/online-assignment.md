@@ -42,6 +42,10 @@ You will need to implement the basic flow of a bidder which was described above.
 3. For the targeting matching you should use the country info contained in the bid request and check it against the list of *targetedCountries* for each campaign.
 4. For the campaign ranking you should use the *price* info of the campaign.
 
+### Mocking the Campaign API
+
+Your bidder implementation depends on an external service which exposes the [Campaign API](http://docs.campaignapi9.apiary.io/#). There is no instance of this service running, therefore in your tests, we expect to see this dependency mocked to simulate the real production functionality.
+
 ### End-to-end test cases
 
 In order for the task to be completed your codebase should implement the following test cases.
@@ -55,15 +59,16 @@ In order for the task to be completed your codebase should implement the followi
 
 ### Objective
 
-For the final task we want to implement a basic pacing algorithm. The pacing essentially controls how many times we can bid for a campaign in a given time period. 
+For the final task we want to implement a basic pacing algorithm. The pacing essentially controls how many times we can bid for a campaign in a given time period.
 
 ### Example
 
-Let's take for example a pacing of 100 bids per minute and two campaigns: campaign A and campaign B. So far in the last one minute we have sent 100 bids for campaign A and 20 for campaign B. This means that campaign A has reached its pacing limit and therefore we cannot bid with it anymore. Campaign B is still well below the threshold so we can consider this campaign for our next bid. Every minute this process resets and starts again.
+Let's take for example a pacing of 100 bids per minute and two campaigns: campaign A and campaign B. So far in the current minute we have sent 100 bids for campaign A and 20 for campaign B. This means that campaign A has reached its pacing limit and therefore we cannot bid with it anymore. Campaign B is still well below the threshold so we can consider this campaign for our next bid. Every minute this process resets and starts again.
 
-### What we are looking for
+### Notes
 
-The implementation of the solution to this task is up to you. Feel free to approach the solution in any way you like. Having said that, please keep in mind that we do not expect you to implement an exotic or overly complicated system. We are looking for something that accomplishes the task in a simple way.
+- Feel free to approach the solution in any way you like. Having said that, please keep in mind that we do not expect you to implement an exotic or overly complicated system. Pacing in real life is a hard task but for the purpose of this assignment the requirements have been greatly simplified. We are looking for something that accomplishes the task in a simple way.
+- Use the a global pacing limit for all campaigns in your bidder implementation. For example, all campaigns are subject to a pacing limit of 100 bids per minute. 
 
 ### End-to-end test cases
 
@@ -73,13 +78,9 @@ In order for the task to be completed your codebase should implement the followi
 |---|---|---|---|
 | If we have reached the pacing threshold for a campaign then bidder should filter it out | [Sample Bid Request](test-cases/test-case-1-input.json) | [Expected Bid Response](test-cases/test-case-3-output.json) | Please read note below * |
 
-\* The test plan here is to firstly set a campaign pacing of 1 bid per minute. Then call your bidder twice with the same bid request. In the second call the campaign that was served previously should be filtered out since it reached its pacing threshold.
+\* The test plan here is to firstly set a campaign pacing of 1 bid per minute. Then call your bidder twice (within the same minute) with the same bid request. In the second call the campaign that was served previously should be filtered out since it reached its pacing threshold. In addition, you can re-use the mock [response](test-cases/mock-campaign-api-response.json) for the Campaign API as you did in Task 1.
 
 {% include online-assignment/deliverables.md %}
-
-# Mock external dependencies
-
-Your bidder implementation depends on an external service which exposes the [Campaign API](http://docs.campaignapi9.apiary.io/#). There is no instance of this service running therefore in your tests, we expect to see this dependency mocked to simulate the real production functionality.
 
 Please avoid hardcoding API reponses from external services!
 
