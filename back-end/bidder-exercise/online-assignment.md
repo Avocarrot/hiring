@@ -46,6 +46,8 @@ You will need to implement the basic flow of a bidder which was described above.
 
 Your bidder implementation depends on an external service which exposes the [Campaign API](http://docs.campaignapi9.apiary.io/#). There is no instance of this service running, therefore in your tests, we expect to see this dependency mocked to simulate the real production functionality.
 
+You are free to use any approach you like to implement mocking.
+
 ### End-to-end test cases
 
 In order for the task to be completed your codebase should implement the following test cases.
@@ -81,9 +83,5 @@ In order for the task to be completed your codebase should implement the followi
 \* The test plan here is to firstly set a campaign pacing of 1 bid per minute. Then call your bidder twice (within the same minute) with the same bid request. In the second call the campaign that was served previously should be filtered out since it reached its pacing threshold. In addition, you can re-use the mock [response](test-cases/mock-campaign-api-response.json) for the Campaign API as you did in Task 1.
 
 {% include online-assignment/deliverables.md %}
-
-Please avoid hardcoding API reponses from external services!
-
-You are free to use any approach you like to implement mocking.
 
 {% include online-assignment/assessment-criteria.md %}
