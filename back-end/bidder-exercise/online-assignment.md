@@ -59,7 +59,11 @@ For the final task we want to implement a basic pacing algorithm. The pacing ess
 
 ### Example
 
-Let's take for example a pacing of 100 bids per minute and two campaigns: campaign A and campaign B. So far in the last one minute we have sent 100 bids for campaign A and 20 for campaign B. This means that campaign A has reached its pacing limit and therefore we cannot bid with it anymore. Campaign B is still well below the threshold so we can consider this campaign for our next bid. Every minute we reset the counts and begin counting again.
+Let's take for example a pacing of 100 bids per minute and two campaigns: campaign A and campaign B. So far in the last one minute we have sent 100 bids for campaign A and 20 for campaign B. This means that campaign A has reached its pacing limit and therefore we cannot bid with it anymore. Campaign B is still well below the threshold so we can consider this campaign for our next bid. Every minute this process resets and starts again.
+
+### What we are looking for
+
+The implementation of the solution to this task is up to you. Feel free to approach the solution in any way you like. Having said that, please keep in mind that we do not expect you to implement an exotic or overly complicated system. We are looking for something that accomplishes the task in a simple way.
 
 ### End-to-end test cases
 
