@@ -60,9 +60,9 @@ You are free to use any approach you like to implement mocking.
 
 ### Objective
 
-Extend the styleguide to include a card component. At the moment, the styleguide doesn't contain a card component similar to what you implemented for the bidder list page in the previous task. Since this is a component which be reused heavily both in this app but also in other places in Avocarrot we'd like you to extend the styleguide to include this new component.
+Extend the styleguide to include a card component. At the moment, the styleguide doesn't contain a card component like the one you implemented for the bidder list page in the previous task. Since this is a component which will be reused heavily, both in this app but also in other Avocarrot apps, we'd like you to write the neccessary CSS to implement this new component.
 
-[TODO What should they submit here?]
+[TODO how we can be more specific that they should submit a css thing that can be reusable]
 
 ## Task 3
 

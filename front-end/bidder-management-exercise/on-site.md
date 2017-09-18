@@ -10,8 +10,8 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 | Task Objective | Expected Completion Time |
 |---|---|
-| [Task 1:](#task-1)  | ~1 hour |
-| [Task 2:](#task-2) | ~3 hours |
+| [Task 1:](#task-1) Discuss how we can extend the bidder management system to introduce a new data source for bidder exchange settings | ~1 hour |
+| [Task 2:](#task-2) Implement the solution proposed in the previous task | ~3 hours |
 
 ## Task 1
 
@@ -21,5 +21,7 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 ## Task 2
 
 ### Objective
+
+[TODO Add test cases to check for specific things like validations etc]
 
 {% include on-site/assessment-criteria.md %}
