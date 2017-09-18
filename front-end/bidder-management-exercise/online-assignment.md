@@ -76,6 +76,13 @@ Below you can see the mockup of how your page should look like after completing 
 
 [TODO INSERT MOCKUP]
 
+{% include online-assignment/test-cases-intro.md %}
+
+| Description | Expected input | Expected output | Parameters/Mocks |
+|---|---|---|---|
+| Clicking on a bidder's card the user gets redirected to the edit page for that bidder. | Visit the bidders list page and click on a bidder card | Your test should check that the user gets to the edit page for that bidder | N/A |
+| User is able to edit a bidder's name and persist it to the remote API | When in the edit page the user changes the bidder name and clicks Save. | Your test should check that the page state has changed as well as that the remote API was called to persist the edit | N/A |
+
 {% include online-assignment/deliverables.md %}
 
 {% include online-assignment/assessment-criteria.md %}
