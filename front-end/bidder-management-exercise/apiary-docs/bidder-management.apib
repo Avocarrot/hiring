@@ -1,0 +1,56 @@
+FORMAT: 1A9
+HOST: http://campaigns.apiblueprint.org/
+
+# Bidder Management API
+
+Bidder Management is a simple API allowing consumers to perform CRUD operations on bidders.
+
+## Bidders Collection [/bidders]
+
+### Get All Bidders [GET]
+
++ Response 200 (application/json)
+    + Attributes (array[Bidder])
+    
+    + Body
+        
+        [
+          {
+            "id": "e7fe51ce-4f63-7687-6353-ff0961c2eb0d",
+            "name": "Bidder 1",
+            "endpoint": "https://mybidder.com/bids"
+          },
+          {
+            "id": "d7f4f63e-c2cb-7687-c2cb-ff6353c2cb0e",
+            "name": "Bidder 2",
+            "endpoint": "https://test.bidder.com/bids"
+          },
+          {
+            "id": "ff0961c2-4f63-7687-6353-fd7f4f63eb0b",
+            "name": "Bidder 3",
+            "endpoint": "https://request.bidder.com/bidsRequests"
+          }
+        ]
+
+### Get Bidder [GET /bidders/{id}]
+
++ Response 200 (application/json)
+    + Attributes (Bidder)
+
+### Update Bidder [PUT /bidders/{id}]
+
++ Request 200 (application/json)
+    + Attributes (Bidder)
+        + name: New Bidder Name
+
++ Response 200 (application/json)
+    + Attributes (Bidder)
+        + name: New Bidder Name
+    
+# Data Structures
+
+## Bidder (object)
+
++ id: `e7fe51ce-4f63-7687-6353-ff0961c2cb0d` (required, string) - The unique identifier for the bidder.
++ name: Bidder1 (required, string) - The human friendly name of the bidder.
++ endpoint: `https://mybidder.com/bids` (required, string) - The endpoint url that our exchange uses to send bid requests to this bidder.
