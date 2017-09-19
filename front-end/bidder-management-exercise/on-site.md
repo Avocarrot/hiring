@@ -6,7 +6,7 @@ For this assignment we'll be extending the implementation of the bidder manageme
 
 # Tasks
 
-The assignment is split into seperate tasks. Each task builds on the work done for the previous ones. 
+The assignment is split into seperate tasks. Each task builds on the work done for the previous ones.
 
 | Task Objective | Expected Completion Time |
 |---|---|
@@ -17,10 +17,12 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 ### Objective
 
+Discuss how we can extend the bidder management system to introduce a new data source for bidder exchange settings.
+
 ## Task 2
 
 ### Objective
 
-[TODO Add test cases to check for specific things like validations etc]
+Implement the solution proposed in the previous task.
 
 {% include on-site/assessment-criteria.md %}
