@@ -1,16 +1,20 @@
+---
+styleguideUrl: https://s3.amazonaws.com/avocarrot-style-guide/latest/avocarrot-skin/documentation/apps/getting-started/index.html
+---
+
 {% include online-assignment/intro.md %}
 
 # Context
 
-Avocarrot is a mobile ad exchange, which on the demand side is connected to 3rd-party companies called Demand Side Platforms (DSP) and on the supply side is connected to mobile app developers. For this assignment we'll focus **only on the demand side**.
+{{site.companyName}} is a mobile ad exchange, which on the demand side is connected to 3rd-party companies called Demand Side Platforms (DSP) and on the supply side is connected to mobile app developers. For this assignment we'll focus **only on the demand side**.
 
 Each DSP can have one or more bidders connected to our exchange. You do not need to worry about the specifics of how DSPs and their bidders work.
 
-[TODO INSERT DIAGRAM WITH AVOCARROT AND BIDDERS HERE] 
+[TODO INSERT DIAGRAM WITH {{site.companyName}} AND BIDDERS HERE] 
 
 # Objective
 
-As a front-end software engineer for Avocarrot, you are given the task of developing a web app that the DSP users can use to manage their bidders.
+As a front-end software engineer for {{site.companyName}}, you are given the task of developing a web app that the DSP users can use to manage their bidders.
 
 By the end of this assignment and by completing the tasks below you will have developed a (very simplistic) web app for bidder management. 
 
@@ -36,7 +40,7 @@ Below you can see the mockup of how these components should look like.
 
 ### Styling
 
-You should write your own HTML and CSS for the components but please check out Avocarrot's [styleguide](https://s3.amazonaws.com/avocarrot-style-guide/latest/avocarrot-skin/documentation/apps/getting-started/index.html) for guidelines about colors and typography.
+You should write your own HTML and CSS for the components but please check out {{site.companyName}}'s [styleguide]({{page.styleguideUrl}}) for guidelines about colors and typography.
 
 ## Task 2
 
@@ -52,7 +56,7 @@ Below you can see the mockup of how your page should look like after completing 
 
 ### Styleguide
 
-For this task you should re-use the components created in the previous one. However, for the rest of this task you can use the CSS styling already implemented in Avocarrot's [styleguide](https://s3.amazonaws.com/avocarrot-style-guide/latest/avocarrot-skin/documentation/apps/getting-started/index.html). The styleguide can be imported in your project.
+For this task you should re-use the components created in the previous one. However, for the rest of this task you can use the CSS styling already implemented in {{site.companyName}}'s [styleguide]({{page.styleguideUrl}}). The styleguide can be imported in your project.
 
 ### Bidder Management API
 

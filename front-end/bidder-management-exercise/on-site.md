@@ -17,7 +17,6 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 ### Objective
 
-
 ## Task 2
 
 ### Objective
