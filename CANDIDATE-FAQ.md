@@ -4,7 +4,7 @@
 
 ### What is your stack?
 
-Since the early days of Avocarrot we have embraced the microservice architecture mindset. For this reason our system is comprised of smaller modular services which help us move faster in development but also achieve the scalability we want. The product has 4 main parts:
+Since the early days of {{site.companyName}} we have embraced the microservice architecture mindset. For this reason our system is comprised of smaller modular services which help us move faster in development but also achieve the scalability we want. The product has 4 main parts:
 
 | Part | Technologies |
 |---|---|

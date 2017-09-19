@@ -4,7 +4,7 @@ In your uploaded solution you should include:
 
 1. The complete working code (so that we can run your solution on our machines).
 2. Step-by-step instructions on how to run your code and tests (how to compile, how to install dependencies, how to run code etc). 
-3. The code which implements the passing end-to-end test cases listed in the assignment.
+3. Any code that is needed to run your passing end-to-end test cases listed in the assignment.
 
 ### Notes
 

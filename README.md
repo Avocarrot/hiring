@@ -1,12 +1,12 @@
 # Avocarrot Technical Interviews
 
-Welcome to the documentation for Avocarort's technical interviews at Avocarrot.
+Welcome to the documentation for technical interviews at {{site.companyName}}.
 
 # For Candidates
 
 ## Open positions
 
-Please find all our open positions [here](https://avocarrot.workable.com/).
+Please find all our open positions [here]({{site.careersPage}}).
 
 ## Recruitment process
 
@@ -25,7 +25,7 @@ Please read our Candidate FAQ [here](CANDIDATE-FAQ.md).
 
 # For Contributors
 
-Our hiring material is open source since at Avocarrot we are big believers in the open source community. If you wish to contribute to this repo feel free to submit your pull requests.
+Our hiring material is open source since at {{site.companyName}} we are big believers in the open source community. If you wish to contribute to this repo feel free to submit your pull requests.
 
 ## Setup your development environment
 

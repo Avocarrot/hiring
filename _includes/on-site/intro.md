@@ -2,7 +2,7 @@
 
 Hey there! 
 
-The following document contains important information about your on-site interview at Avocarrot. 
+The following document contains important information about your on-site interview at {{site.companyName}}. 
 
 ## Before the interview
 

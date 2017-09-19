@@ -26,7 +26,7 @@ We want to create a system which will take as input the two datasets (one for Co
 
 {% include online-assignment/deliverables.md %}
 
-# End-to-end test cases
+{% include online-assignment/test-cases-intro.md %}
 
 | Description | Expected input | Expected output |
 |---|---|---|

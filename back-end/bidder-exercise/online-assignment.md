@@ -48,9 +48,7 @@ Your bidder implementation depends on an external service which exposes the [Cam
 
 You are free to use any approach you like to implement mocking.
 
-### End-to-end test cases
-
-In order for the task to be completed your codebase should implement the following test cases.
+{% include online-assignment/test-cases-intro.md %}
 
 | Description | Expected input | Expected output | Parameters/Mocks |
 |---|---|---|---|
@@ -72,9 +70,7 @@ Let's take for example a pacing of 100 bids per minute and two campaigns: campai
 - Feel free to approach the solution in any way you like. Having said that, please keep in mind that we do not expect you to implement an exotic or overly complicated system. Pacing in real life is a hard task but for the purpose of this assignment the requirements have been greatly simplified. We are looking for something that accomplishes the task in a simple way.
 - Use a global pacing limit for all campaigns in your bidder implementation. For example, all campaigns are subject to a pacing limit of 100 bids per minute. 
 
-### End-to-end test cases
-
-In order for the task to be completed your codebase should implement the following test case.
+{% include online-assignment/test-cases-intro.md %}
 
 | Description | Expected input | Expected output | Parameters |
 |---|---|---|---|
