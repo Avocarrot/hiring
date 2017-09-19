@@ -36,7 +36,7 @@ Create re-usable components to display bidder information and state. These compo
 
 ### End result
 
-Below you can see the mockup of how these components should look like.
+Follow [this link](https://zpl.io/scene/aMd9EZd) to see the mockup of how the component should look like.
 
 ### Styling
 
@@ -52,7 +52,7 @@ Implement a route which allows the user to view a list of their bidders.
 
 Below you can see the mockup of how your page should look like after completing this task.
 
-[TODO INSERT MOCKUP] 
+![bidder-list](/static/bidder-list.jpg){:width="100%"}
 
 ### Styleguide
 
@@ -82,7 +82,7 @@ For the final step in this assignment we'd like to allow DSP users to edit their
 
 Below you can see the mockup of how your page should look like after completing this task.
 
-[TODO INSERT MOCKUP]
+![bidder-edit](/static/bidder-edit.jpg){:width="100%"}
 
 {% include online-assignment/test-cases-intro.md %}
 
