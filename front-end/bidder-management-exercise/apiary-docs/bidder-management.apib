@@ -18,17 +18,20 @@ Bidder Management is a simple API allowing consumers to perform CRUD operations 
           {
             "id": "e7fe51ce-4f63-7687-6353-ff0961c2eb0d",
             "name": "Bidder 1",
-            "endpoint": "https://mybidder.com/bids"
+            "endpoint": "https://mybidder.com/bids",
+            "state": "CREATED"
           },
           {
             "id": "d7f4f63e-c2cb-7687-c2cb-ff6353c2cb0e",
             "name": "Bidder 2",
-            "endpoint": "https://test.bidder.com/bids"
+            "endpoint": "https://test.bidder.com/bids",
+            "state": "LIVE"
           },
           {
             "id": "ff0961c2-4f63-7687-6353-fd7f4f63eb0b",
             "name": "Bidder 3",
-            "endpoint": "https://request.bidder.com/bidsRequests"
+            "endpoint": "https://request.bidder.com/bidsRequests",
+            "state": "LIVE"
           }
         ]
 
@@ -54,3 +57,7 @@ Bidder Management is a simple API allowing consumers to perform CRUD operations 
 + id: `e7fe51ce-4f63-7687-6353-ff0961c2cb0d` (required, string) - The unique identifier for the bidder.
 + name: Bidder1 (required, string) - The human friendly name of the bidder.
 + endpoint: `https://mybidder.com/bids` (required, string) - The endpoint url that our exchange uses to send bid requests to this bidder.
++ state: `LIVE` (required, enum[string]) - The state of this bidder.
+  + Members
+    - CREATED
+    - LIVE

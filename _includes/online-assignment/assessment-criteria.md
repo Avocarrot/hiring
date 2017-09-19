@@ -10,3 +10,4 @@ Below you can find the list of assesment criteria we use to judge your code alon
 | Extensibility | Is your code structured in a way that future changes would require minimal effort?  | **HIGH**  |
 | Solution Completness  |  Did you complete the implementation of the solution according to the specifications? | MEDIUM  |
 | Test coverage  |  Did you covered most of your code’s functionality with tests? | MEDIUM  |
+| Performance  | Did you make an effort to optimize the performance of your code?  | LOW  |
