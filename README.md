@@ -1,4 +1,4 @@
-# {{site.companyName}} Technical Interviews
+# Avocarrot Technical Interviews
 
 Welcome to the documentation for technical interviews at {{site.companyName}}.
 
