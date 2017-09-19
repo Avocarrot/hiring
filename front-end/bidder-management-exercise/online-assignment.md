@@ -24,7 +24,7 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 | Task Objective | Expected Completion Time |
 |---|---|
-| [Task 1:](#task-1) Create re-usable components to display bidder information and state | ~1 hour |
+| [Task 1:](#task-1) Create a re-usable component to display bidder information and state | ~1 hour |
 | [Task 2:](#task-2) Implement a route which allows the user to view a list of their bidders | ~1 hour |
 | [Task 3:](#task-3) Implement a route which allows users to edit their bidders | ~2 hours |
 
@@ -32,7 +32,7 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 ### Objective
 
-Create re-usable components to display bidder information and state. These components will be used later in the assignment.
+Create a re-usable component to display bidder information and state. This component will be used later in the assignment.
 
 ### End result
 
@@ -56,7 +56,7 @@ Below you can see the mockup of how your page should look like after completing 
 
 ### Styleguide
 
-For this task you should re-use the components created in the previous one. However, for the rest of this task you can use the CSS styling already implemented in {{site.companyName}}'s [styleguide]({{page.styleguideUrl}}). The styleguide can be imported in your project.
+For this task you should re-use the component created in the previous one. However, for the rest of this task you can use the CSS styling already implemented in {{site.companyName}}'s [styleguide]({{page.styleguideUrl}}). The styleguide can be imported in your project.
 
 ### Bidder Management API
 
