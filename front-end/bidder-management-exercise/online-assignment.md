@@ -10,7 +10,7 @@ styleguideUrl: https://s3.amazonaws.com/avocarrot-style-guide/latest/avocarrot-s
 
 Each DSP can have one or more bidders connected to our exchange. You do not need to worry about the specifics of how DSPs and their bidders work.
 
-[TODO INSERT DIAGRAM WITH {{site.companyName}} AND BIDDERS HERE] 
+![exchange-diagram](/static/exchange-diagram.jpg){:width="100%"}
 
 # Objective
 
@@ -60,7 +60,7 @@ For this task you should re-use the components created in the previous one. Howe
 
 ### Bidder Management API
 
-You'll need to retrieve bidder information from a remote API. Please find the docs for the Bidder Management API [here](http://docs.biddermanagement.apiary.io/). Note that for simplicity you do not need to provide any authentication/authorization info. Assume that your calls are already authenticated.
+You'll need to retrieve bidder information from a remote API. Please find the docs for the Bidder Management API [here](http://docs.biddermanagement.apiary.io/). Note that for simplicity you can assume that calles to the API are authenticated and return results for the logged in DSP user only.
 
 Please note that there is no instance of this service running, therefore in your tests, we expect to see this dependency mocked to simulate the real production functionality.
 
