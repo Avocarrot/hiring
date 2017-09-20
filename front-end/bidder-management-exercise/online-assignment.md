@@ -36,7 +36,10 @@ Create a re-usable component to display bidder information and state. This compo
 
 ### End result
 
-Follow [this link](https://zpl.io/scene/aMd9EZd) to see the mockup of how the component should look like.
+Below you can see the specs of the component and how it should look like after completing this task.
+
+![bidders-list-component-specs](/static/bidders-list-component-specs.jpg){:width="100%"}
+
 
 ### Styling
 
