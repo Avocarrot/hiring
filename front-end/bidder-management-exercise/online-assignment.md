@@ -14,7 +14,7 @@ Each DSP can have one or more bidders connected to our exchange. You do not need
 
 # Objective
 
-As a front-end software engineer for {{site.companyName}}, you are given the task of developing a web app that the DSP users can use to manage their bidders.
+As a front-end software engineer at {{site.companyName}}, you are given the task of developing a web app that the DSP users can use to manage their bidders.
 
 By the end of this assignment and by completing the tasks below you will have developed a (very simplistic) web app for bidder management. 
 
@@ -56,13 +56,13 @@ Below you can see the mockup of how your page should look like after completing 
 
 ### Styleguide
 
-For this task you should re-use the component created in the previous one. However, for the rest of this task you can use the CSS styling already implemented in {{site.companyName}}'s [styleguide]({{page.styleguideUrl}}). The styleguide can be imported in your project.
+For this task you will re-use the component created in the previous one. However, for the rest of this task you should use the CSS styling already implemented in {{site.companyName}}'s [styleguide]({{page.styleguideUrl}}). The styleguide can be imported in your project.
 
 ### Bidder Management API
 
-You'll need to retrieve bidder information from a remote API. Please find the docs for the Bidder Management API [here](http://docs.biddermanagement.apiary.io/). Note that for simplicity you can assume that calles to the API are authenticated and return results for the logged in DSP user only.
+You'll need to retrieve bidder information from a remote API. Please find the docs for the Bidder Management API [here](http://docs.biddermanagement.apiary.io/). Note that for simplicity you can assume that calls to the API are already authenticated and return results for the logged in DSP user only.
 
-Please note that there is no instance of this service running, therefore in your tests, we expect to see this dependency mocked to simulate the real production functionality.
+Please note that there is no instance of this service running, therefore in your tests, we expect to see this dependency mocked to simulate the real production functionality. 
 
 You are free to use any approach you like to implement mocking.
 
