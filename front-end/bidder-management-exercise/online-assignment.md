@@ -1,5 +1,5 @@
 ---
-styleguideUrl: https://s3.amazonaws.com/avocarrot-style-guide/latest/avocarrot-skin/documentation/apps/getting-started/index.html
+styleguideUrl: https://s3.amazonaws.com/avocarrot-style-guide/latest/avocarrot-skin/documentation/apps/index.html
 ---
 
 {% include online-assignment/intro.md %}
