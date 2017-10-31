@@ -11,7 +11,7 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 | Task Objective | Expected Completion Time |
 |---|---|
 | [Task 1:](#task-1) Identify scalability bottlenecks and propose solutions for scaling up the bidder | ~1 hour |
-| [Task 2:](#task-2) Design and implement a new bidder component which will help speed up our bidder | ~3 hours |
+| [Task 2:](#task-2) Design and implement a new bidder component which will help speed up our bidder | ~2 hours |
 
 ## Task 1
 
