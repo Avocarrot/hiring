@@ -1,4 +1,4 @@
-# Avocarrot Technical Interviews
+{% include header.md %}
 
 Welcome to the documentation for technical interviews at {{site.companyName}}.
 
