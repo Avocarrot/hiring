@@ -10,7 +10,7 @@ styleguideUrl: https://s3.amazonaws.com/avocarrot-style-guide/latest/avocarrot-s
 
 Each DSP can have one or more bidders connected to our exchange. You do not need to worry about the specifics of how DSPs and their bidders work.
 
-![exchange-diagram](/static/exchange-diagram.jpg){:width="100%"}
+![exchange-diagram](/front-end/bidder-management-exercise/static/exchange-diagram.jpg)
 
 # Objective
 
@@ -38,7 +38,7 @@ Create a re-usable component to display bidder information and state. This compo
 
 Below you can see the specs of the component and how it should look like after completing this task.
 
-![bidders-list-component-specs](/static/bidders-list-component-specs.jpg){:width="100%"}
+![bidders-list-component-specs](/front-end/bidder-management-exercise/static/bidders-list-component-specs.jpg)
 
 
 ### Styling
@@ -55,7 +55,7 @@ Implement a route which allows the user to view a list of their bidders.
 
 Below you can see the mockup of how your page should look like after completing this task.
 
-![bidder-list](/static/bidder-list.jpg){:width="100%"}
+![bidder-list](/front-end/bidder-management-exercise/static/bidder-list.jpg)
 
 ### Styleguide
 
@@ -85,7 +85,7 @@ For the final step in this assignment we'd like to allow DSP users to edit their
 
 Below you can see the mockup of how your page should look like after completing this task.
 
-![bidder-edit](/static/bidder-edit.jpg){:width="100%"}
+![bidder-edit](/front-end/bidder-management-exercise/static/bidder-edit.jpg)
 
 {% include online-assignment/test-cases-intro.md %}
 
