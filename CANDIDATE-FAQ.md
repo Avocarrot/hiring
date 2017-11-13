@@ -31,7 +31,7 @@ We have been active in both contributing and publishing open source code. You ca
 
 ### What are the working hours?
 
-We have flexible working hours having a descent overlap with everybody in the office. Each team organizes their own standups and meetings so that everyone in the team feels comfortable with the time. We give particular emphasis to a healthy work-life balance.
+We have flexible working hours having a decent overlap with everybody in the office. Each team organizes their own standups and meetings so that everyone in the team feels comfortable with the time. We give particular emphasis to a healthy work-life balance.
 
 ## Recruitment process
 
