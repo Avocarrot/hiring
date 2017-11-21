@@ -1,3 +1,5 @@
+{% include header.html %}
+
 # Candidate FAQ
 
 ## Tech and Team
