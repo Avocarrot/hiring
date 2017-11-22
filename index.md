@@ -86,7 +86,7 @@ We like to experiment with new technologies and frameworks. Our stack is compris
       <div class="row align-middle align-center small-up-1 medium-up-2 large-up-3">
           <div class="columns text-center">
             <a href="https://photos.app.goo.gl/gyLKGhWgQoQb1z5E3">
-                <img src="static/karitaina.JPG"/>
+                <img src="static/karitaina.jpg"/>
             </a>
             <div class="top-spacing-1x">
               <p>Trip to Karitaina</p>
@@ -95,7 +95,7 @@ We like to experiment with new technologies and frameworks. Our stack is compris
           </div>
           <div class="columns text-center">
             <a href="https://photos.app.goo.gl/qomZvasQCNYQAXnq2">
-                <img src="static/berlin.png"/>
+                <img src="static/berlin.jpg"/>
             </a>
             <div class="top-spacing-1x">
               <p>Trips to Berlin</p>
@@ -104,7 +104,7 @@ We like to experiment with new technologies and frameworks. Our stack is compris
           </div>
           <div class="columns text-center">
             <a href="https://photos.app.goo.gl/DPVwWsJFBBOPJPCU2">
-                <img src="static/meteora.JPG"/>
+                <img src="static/meteora.jpg"/>
             </a>
             <div class="top-spacing-1x">
               <p>Trip to Meteora</p>
