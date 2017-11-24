@@ -11,19 +11,19 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 | Task Objective | Expected Completion Time |
 |---|---|
-| [Task 1:](#task-1) Identify scalability bottlenecks and propose solutions for scaling up the bidder | ~1 hour |
-| [Task 2:](#task-2) Design and implement a new bidder component which will help speed up our bidder | ~2 hours |
+| [Task 1:](#task-1) Discuss the requirements of a new proposed bidder extension and think about its system architecture and specifications | ~1.5 hours |
+| [Task 2:](#task-2) Implement a small component of the proposed architecture. | ~1.5 hours |
 
 ## Task 1
 
 ### Objective
 
-As part of the bidder team we need to identify potential performance bottlenecks and come up with a list of possible scalability solutions.
+We will work on a real-life scenario where there is the business need for an extension to our bidder. We will discuss the requirements of this new feature and think about its system architecture and specifications. 
 
 ## Task 2
 
 ### Objective
 
-For this task we'll work on developing a new component to improve the performance of our bidder. More information about this task will be provided during the interview. 
+After discussing the architecture and design decisions we will implement a small component of the proposed architecture. 
 
 {% include on-site/assessment-criteria.md %}
