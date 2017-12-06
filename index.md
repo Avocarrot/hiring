@@ -117,7 +117,7 @@ We like to experiment with new technologies and frameworks. Our stack is compris
 
 # Candidate FAQ
 
-Please read our Candidate FAQ [here](CANDIDATE-FAQ.md).
+Please read our Candidate FAQ [here](faq.md).
 
 <br>
 <div class="cta-section">
