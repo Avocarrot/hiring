@@ -23,12 +23,11 @@ For this assignment we will focus on building a bidder so you do not need to wor
 
 # Tasks
 
-The assignment is split into seperate tasks. Each task builds on the work done for the previous ones. 
+The assignment consists of one task.
 
 | Task Objective | Expected Completion Time |
 |---|---|
-| [Task 1:](#task-1) Implement the basic bidder flow | ~1.5 hours |
-| [Task 2:](#task-2) Implement a basic pacing algorithm | ~2.5 hours |
+| [Task 1:](#task-1) Implement the basic bidder flow | ~2 hours |
 
 ## Task 1
 
@@ -55,29 +54,6 @@ You are free to use any approach you like to implement mocking.
 |---|---|---|---|
 | Bidder should respond with a bid for the highest paying campaign that matches the targeting criteria. | [Sample Bid Request](test-cases/test-case-1-input.json) | [Expected Bid Response](test-cases/output.json) | Use [this response](test-cases/mock-campaign-api-response.json) for the Campaign API mock. | 
 | Bidder should respond without a bid if there no available or matching campaigns. | [Sample Bid Request](test-cases/test-case-2-input.json) | Bid response with no body and status code 204 as specified [here](http://docs.bidderapi.apiary.io/#reference/0/ask-bidder-to-submit-a-bid/bid-response-without-a-bid). | Use [this response](test-cases/mock-campaign-api-response.json) for the Campaign API mock. |
-
-## Task 2
-
-### Objective
-
-For the final task we want to implement a basic pacing algorithm. The pacing essentially controls how many times we can bid for a campaign in a given time period.
-
-### Example
-
-Let's take for example a pacing of 100 bids per minute and two campaigns: campaign A and campaign B. So far in the current minute we have sent 100 bids for campaign A and 20 for campaign B. This means that campaign A has reached its pacing limit and therefore we cannot bid with it anymore. Campaign B is still well below the threshold so we can consider this campaign for our next bid. Every minute this process resets and starts again.
-
-### Notes
-
-- Feel free to approach the solution in any way you like. Having said that, please keep in mind that we do not expect you to implement an exotic or overly complicated system. Pacing in real life is a hard task but for the purpose of this assignment the requirements have been greatly simplified. We are looking for something that accomplishes the task in a simple way.
-- Use a global pacing limit for all campaigns in your bidder implementation. For example, all campaigns are subject to a pacing limit of 100 bids per minute. 
-
-{% include online-assignment/test-cases-intro.md %}
-
-| Description | Expected input | Expected output | Parameters |
-|---|---|---|---|
-| If we have reached the pacing threshold for a campaign then bidder should filter it out | [Sample Bid Request](test-cases/test-case-1-input.json) | [Expected Bid Response](test-cases/test-case-3-output.json) | Please read note below * |
-
-\* The test plan here is to firstly set a campaign pacing of 1 bid per minute. Then call your bidder twice (within the same minute) with the same bid request. In the second call the campaign that was served previously should be filtered out since it reached its pacing threshold. In addition, you can re-use the mock [response](test-cases/mock-campaign-api-response.json) for the Campaign API as you did in Task 1.
 
 {% include online-assignment/deliverables.md %}
 

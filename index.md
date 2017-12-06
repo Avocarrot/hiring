@@ -20,14 +20,14 @@ We are growing at a fast pace and looking for exceptional software engineers to 
                     <div class="card-block">
                         <i class="icon design_code"></i>
                         <p>Front-end Software Engineer</p>
-                        <a href="/hiring/front-end" class="button-link"> Read More</a>
+                        <a href="/front-end" class="button-link"> Read More</a>
                     </div>
                 </div>
                 <div class="columns text-center">
                     <div class="card-block">
                         <i class="icon design_code"></i>
                         <p>Back-end Software Engineer</p>
-                        <a href="/hiring/back-end"  class="button-link"> Read More</a>
+                        <a href="/back-end"  class="button-link"> Read More</a>
                     </div>
                 </div>
             </div>
