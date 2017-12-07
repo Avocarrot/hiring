@@ -8,7 +8,7 @@
 - Design core components of our ad serving technology that can scale as our product does
 - Design and implement services that can scale to million of RPM 
 - Design the architecture and choose the technologies to be used for new services
-- Develop, test and deploy our data analytics tools that collect hundred of million billions of events and visualize them in clever and innovative ways
+- Develop, test and deploy our data analytics tools that collect billions of events and visualize them in clever and innovative ways
 - Design and implement RESTful interfaces to connect to our backend services and expose data to front-end applications
 
 [Read the full job description](https://avocarrot.workable.com/j/A1B8EFDE8B){:target="_blank"}
