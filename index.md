@@ -1,8 +1,8 @@
 {% include header.html %}
 
-# About Avocarrot 
+# About {{site.companyName}} 
 
-Avocarrot is the leading programmatic ad exchange & mediation solution for mobile publishers, powered by Glispa.
+{{site.companyName}} is the leading programmatic ad exchange for mobile publishers, powered by Glispa.
 
 We are growing at a fast pace and looking for exceptional software engineers to help us keep up with the requirements of a product that needs to handle billions of requests each month.
 
@@ -65,7 +65,7 @@ We value our work-life balance and therefore we avoid strict deadlines and worki
 
 - **Trasparency**
 <br>
-We aim for full transparency because we believe information is power. Metrics such as revenue, costs and profit are available for everyone in the team to review at any time starting from your first day at Avocarrot. 
+We aim for full transparency because we believe information is power. Metrics such as revenue, costs and profit are available for everyone in the team to review at any time starting from your first day at {{site.companyName}}. 
 
 - **Flat Structure**
 <br>
