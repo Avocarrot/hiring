@@ -26,7 +26,7 @@ We are growing at a fast pace and looking for exceptional software engineers to 
                 <div class="columns text-center">
                     <div class="card-block">
                         <i class="icon design_code"></i>
-                        <p>Back-end Software Engineer</p>
+                        <p>Java Software Engineer</p>
                         <a href="/hiring/back-end"  class="button-link"> Read More</a>
                     </div>
                 </div>
