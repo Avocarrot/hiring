@@ -53,7 +53,6 @@ Everyone's needs and workflow are different and we understand that. You will hav
 <br>
 We provide one of the best private insurance plans in Greece, with full medical coverage in almost all the major private medical centers in Greece.
 
-                        Existing waterfalls and 3rd party ad serving will stop on March 1, 2018.
 - **Free Fruits & Snacks**
 <br>
 The office is always stocked with free fruits and snacks. Also, several times each month we organize free lunches for everyone at the office.
