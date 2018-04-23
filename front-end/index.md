@@ -11,7 +11,7 @@
 - Identify and address user experience bottlenecks
 - Participate in design and code reviews
 
-[Read the full job description](https://avocarrot.workable.com/j/A2B2D97B9F){:target="_blank"}
+[Read the full job description](https://glispaconnect.workable.com/j/A2B2D97B9F){:target="_blank"}
 
 ## Recruitment Process
 
