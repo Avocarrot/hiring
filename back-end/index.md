@@ -11,7 +11,7 @@
 - Develop, test and deploy our data analytics tools that collect billions of events and visualize them in clever and innovative ways
 - Design and implement RESTful interfaces to connect to our backend services and expose data to front-end applications
 
-[Read the full job description](https://avocarrot.workable.com/j/A1B8EFDE8B){:target="_blank"}
+[Read the full job description](https://glispaconnect.workable.com/j/A1B8EFDE8B){:target="_blank"}
 
 ## Recruitment Process
 
