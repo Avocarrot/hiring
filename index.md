@@ -30,6 +30,13 @@ We are growing at a fast pace and looking for exceptional software engineers to 
                         <a href="/hiring/back-end"  class="button-link"> Read More</a>
                     </div>
                 </div>
+                <div class="columns text-center">
+                    <div class="card-block">
+                        <i class="icon design_code"></i>
+                        <p>UI/UX <br>  Designer</p>
+                        <a href="/hiring/ui-ux"  class="button-link"> Read More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
