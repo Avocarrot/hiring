@@ -18,6 +18,6 @@
 |---|---|
 | CV review | We review candidates' CV applications looking mainly at past projects and areas of expertise. |
 | Phone Screen | A brief 45 minutes call to learn more about the candidate where we focus on their most representative portfolio projects.
-| Assignment | Candidates receive an assignment based on real-life work we do at {{site.companyName}}. |
+| [Assignment](/assignment.md) | Candidates receive an assignment based on real-life work we do at {{site.companyName}}. |
 | On-site interview | During this part we evaluate and discuss together with the candidate about the design they implemented in the assignment. We focus on the design decisions and concepts chosen by the candidate. |
 | Offer | An offer is made to the candidate. |

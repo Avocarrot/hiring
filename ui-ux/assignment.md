@@ -1,18 +1,47 @@
 {% include header.html %}
-{% include online-assignment/intro.md %}
+
+# Introduction
+
+Hey there :)
+
+- Please read the instructions carefully before start implementing your user interface. 
+- If something is not clear to you please do not hesitate to get in touch with us for clarifications. We'd love to help you out!
 
 # Objective
 
+The objective of this assignment is to create a User Interface for a simple web app, which will allow an advertiser to access important analytics about their campaigns. The interface should be consistent with Glispa's branding and should enable our users to perform the tasks described in the User Stories section, below.
 
-# Tasks
+# User profile
 
-The assignment consists of one task.
+The users of this web app will be advertisers who are running campaigns with Glispa and they want to monitor the performance of those campaigns.
 
-| Task Objective | Expected Completion Time |
+- They are comfortable with numbers.
+- They demand as much flexibility as possible when it comes to slicing and dicing their numbers.
+
+# User Stories
+
+| User Story | Example | Notes |
 |---|---|
-| [Task 1:](#task-1) | ~2 hours |
+| As an advertiser I want to view specific metrics related with my campaigns' performance | - I want to view how many Installs I had during last month <br/> - I want to view how much Spend I had in the last 24 hours | Supported Metrics: CPI (Cost Per Install), Spend, Installs, CTR (click-through rate) |
+| As an advertiser I want to be able to view performance metrics for specific dimension breakdowns | - I want to view the Spend for each individual campaign for the current month <br/> - I want to view how many Installs and CPI I had in each country | Supported Dimensions: Campaign, Country, Time |
+| As an advertiser I want to be able to filter my numbers based on certain dimensions | - I want to view the CPI for campaigns only in USA <br/> - I want to view the Spend only for campaign X and campaign Y | Supported Dimensions: Same as above |
 
-## Task 1
+# Metrics 
 
-### Objective
+| Name | Description | Unit of measurement |
+| Spend | The amount of dollars the advertiser spent running the campaigns| USD ($) |
+| Installs | The number of users who installed the advertised apps in the campaigns| Integer |
+| CTR | The click-through rate of the campaigns. | Percentage | 
+| CPI | The cost per install  | USD ($)  | 
 
+# Brand Assets
+
+- Logos
+- Colors
+- Typeface: Source Sans Pro
+
+# Deliverables
+
+1. A User Interface showcasing how the app will look and function (The level of detail is open-ended and can span from a simple wireframe to a full mockup).
+2. A short description about the solution and the basic UI/UX principles behind it.  
+3. (Optional) A user flows diagram or visualization. 
