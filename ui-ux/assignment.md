@@ -6,10 +6,12 @@ Hey there :)
 
 - Please read the instructions carefully before start implementing your user interface. 
 - If something is not clear to you please do not hesitate to get in touch with us for clarifications. We'd love to help you out!
+- You can use any design software you want and feel more comfortable with it.
 
 # Objective
 
-The objective of this assignment is to create a User Interface for a simple web app, which will allow an advertiser to access important analytics about their campaigns. The interface should be consistent with Glispa's branding and should enable our users to perform the tasks described in the User Stories section, below.
+The objective of this assignment is to create a User Interface for a simple web app, which will allow an advertiser to access important analytics about their campaigns. 
+The exact functionality required by the users is described in the User Stories section, below.
 
 # User profile
 
@@ -34,14 +36,16 @@ The users of this web app will be advertisers who are running campaigns with Gli
 | CTR | The click-through rate of the campaigns. | Percentage | 
 | CPI | The cost per install  | USD ($)  | 
 
-# Brand Assets
+# Glispa Brand Assets
 
-- Logos
-- Colors
+It is **not** a requirement but it would be nice if the interface is consistent with Glispa's branding. 
+
+- [Logo](/static/GlispaLogo.png)
+- [Colors](https://designsystem.avodsp.com/colors)
 - Typeface: Source Sans Pro
 
 # Deliverables
 
 1. A User Interface showcasing how the app will look and function (The level of detail is open-ended and can span from a simple wireframe to a full mockup).
-2. A short description about the solution and the basic UI/UX principles behind it.  
-3. (Optional) A user flows diagram or visualization. 
+2. A short paragraph articulating the design thinking behind this solution. 
+3. (Optional) Any ideation phase artifacts (User flows, site-maps) etc. 
