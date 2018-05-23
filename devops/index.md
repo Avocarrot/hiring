@@ -6,6 +6,7 @@
 
 - Work on cutting-edge cloud technologies on an enormous scale
 - Automate infrastructure provisioning using industry leading tools like Ansible
+- Work with the latest and greatest in Container technology - Docker with Kubernetes
 - Design and operate Big Data pipelines running on Hadoop, Spark and Druid
 - Develop a state-of-the-art monitoring and alerting solution designed to keep our systems highly available
 - Develop continusly integrated development workflows
