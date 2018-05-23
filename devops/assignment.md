@@ -26,9 +26,19 @@ The time estimates for the tasks above assume that you are familiar or have prof
 
 ## Task 1
 
-You will need to deploy a functional Kubernetes cluster on your machine.
+You will need to deploy a functional Kubernetes cluster on your machine. The approach you take is up to you, but some are much more streamlined than others.
 
-You should be able to interact with the cluster via the `kubectl` command from CLI.
+After being done, you should have a working cluster and be able to interact with the cluster via the `kubectl` command from a CLI.
+
+As a rule of thumb, the command `kubectl get services --namespace kube-system` should return the provided kubernetes system services defined. The command
+`kubectl get pods --all-namespaces` should return all pods running. For example:
+
+```bash
+$ kubectl get svc -n kube-system
+NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)         AGE
+kube-dns               ClusterIP   10.96.0.10       <none>        53/UDP,53/TCP   1d
+kubernetes-dashboard   NodePort    10.101.24.98     <none>        80:30000/TCP    1d
+```
 
 ## Task 2
 
@@ -54,6 +64,7 @@ You will find that you may configure the running container by having set some en
 You will need to install and expose the service on a kubernetes ingress controller.
 
 After being done, your service should be accessible via `lobsters.local` on your local machine outside of the Kubernetes cluster.
+A simple point to check would be the ability to successfully log-in.
 
 # Deliverables
 
