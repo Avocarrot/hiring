@@ -28,6 +28,10 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 | [Task 2:](#task-2) Implement a route which allows the user to view a list of their bidders | ~1 hour |
 | [Task 3:](#task-3) Implement a route which allows users to edit their bidders | ~2 hours |
 
+## Timing assumptions
+
+The time estimates for the tasks above assume that you are familiar or jave professional experience with testing techniques and building basic web apps.
+
 ## Task 1
 
 ### Objective

@@ -29,6 +29,10 @@ The assignment consists of one task.
 |---|---|
 | [Task 1:](#task-1) Implement the basic bidder flow | ~2 hours |
 
+## Timing assumptions
+
+The time estimates for the tasks above assume that you are familiar or jave professional experience with testing techniques and building basic web apps.
+
 ## Task 1
 
 ### Objective

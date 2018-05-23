@@ -2,7 +2,7 @@
 
 Hey there :)
 
-- Please read the instructions carefully before start writing your code. 
+- Please read the instructions carefully before starting. 
 - You are free to choose whatever programming language or framework you feel most comfortable in.
 - The instructions below include the expected time of finishing this assignment. If you spend significantly more time than expected then please check if your implementation does more things than the assignment asks for.
 - Please keep your solution as simple as possible! We are impressed by simple and elegant solutions.
