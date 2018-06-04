@@ -19,7 +19,7 @@
 | Step | Description |
 |---|---|
 | CV review | We review candidates' CV applications looking mainly at past projects and areas of expertise. |
-| Phone Screen | A brief 45 minutes call to learn more about the candidate where we focus on their most representative projects 
+| Phone Screen | A brief 45 minutes call to learn more about the candidate and focus on their most representative projects 
 | [Assignment](/assignment.md) | Candidates receive an assignment based on real-life work we do at {{site.companyName}}. |
 | On-site interview | During this part we evaluate and discuss together with the candidate about the solution to the assignment. |
 | Offer | An offer is made to the candidate. |

@@ -1,15 +1,19 @@
 {% include header.html %}
-{% include online-assignment/intro.md %}
+
+# Introduction 
+
+Hey there :)
+
+- Please read the instructions carefully before start implementing your solution.
+- If something is not clear to you please do not hesitate to get in touch with us for clarifications. We’d love to help you out!
 
 # Objective
 
 You are a Product Manager working at an ad-tech company called Blue Banana.
 
-The team has identified a problem that we'd like to address and you'll be the person leading the development of this new product.
+Blue Banana works with multiple advertisers who run campaigns with us. Unlike our competitors such as AppLift and InMobi, our campaign reporting is completely manual. Currently campaign performance metrics are communicated manually via csv reports attached in emails.
 
-Blue Banana works with multiple advertisers who run campaigns with us. Unlike our competitors such as X, Y, Z, we do not have a way for our advertisers to check their campaigns' metrics by themselves. Currently the campaigns' metrics are communicated manually with csv files via email with the advertisers.
-
-Your objective is to assemble a team that will develop a new product that will allow our advertisers to check their campaigns' reporting at any given point by themselves. 
+Your objective is to assemble a team that will develop a new product that will allow our advertisers to check their campaigns' reporting on-demand and without the need for our own account managers to get involved.
 
 # User profile
 
@@ -17,8 +21,8 @@ The users of this new proudct will be advertisers who are running campaigns with
 
 - They are comfortable with numbers.
 - They demand as much flexibility as possible when it comes to slicing and dicing their numbers.
-- The main metrics our advertisers are interested are Media Spend, number of Clicks and Conversions.
-- The main dimensions/splits our advertisers are interested when they are looking at their metrics are Country, Publisher and Campaign Id.
+- The main metrics our advertisers are interested in are Spend, click-through-rate (CTR) and number of Installs.
+- The main dimensions/splits our advertisers are interested in when they are looking at their metrics are Country, Time and Campaign Id.
 
 # Tasks
 
@@ -28,17 +32,16 @@ The assignment comprises of four tasks.
 |---|---|
 | [Task 1:](#task-1) Describe the product functionality and roadmap using high level user stories/epics | ~30 minutes |
 | [Task 2:](#task-2) Design quick wireframes for the new product | ~60 minutes |
-| [Task 3:](#task-3) Describe the ideal team structure and processes | ~60 minutes |
+| [Task 3:](#task-3) Describe the ideal team structure and process | ~60 minutes |
 | [Task 4:](#task-4) Describe how you would identify if the product is successful or not | ~60 minutes |
 
 
 ## Task 1
 
 Describe the product functionality and roadmap using high level user stories/epics. 
-
-Please provide a roadmap for the new product in the form of user stories and for each story provide acceptance criteria.
-
-The level of detail for each user story is up to you.
+ 
+- For each story provide acceptance criteria.
+- How would you prioritize the stories in a roadmap?
 
 ## Task 2
 
@@ -48,13 +51,13 @@ The level of detail for the wireframes is up to you but we'd recommend to keep i
 
 ## Task 3
 
-Describe the ideal team structure and processes based on your experience and product requirements.  
+Describe the ideal team structure and process based on your experience and product requirements.  
 
 You can talk about:
 
 - functions, skills and roles needed to deliver the product 
 - team rituals
-- methodology chosen to run the team 
+- methodology used to run the team 
 - tools that you'll be using for project management
 - metrics that you'll use to track the team's efficiency 
 
@@ -64,7 +67,6 @@ Describe how you would identify if the product is successful or not.
 
 # Deliverables
 
-In your uploaded solution you should include:
-1.  
+You can submit your assignment solution as a document which clearly outlines your answers to the different tasks. Please share with us this document by any means you find more convenient such as PDF, Google Doc etc.
 
-**Note** Upload your solution as a valid `.tar.gz` or `.zip` file containing the deliverables.
+
