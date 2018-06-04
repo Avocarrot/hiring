@@ -30,7 +30,7 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 ## Timing assumptions
 
-The time estimates for the tasks above assume that you are familiar or jave professional experience with testing techniques and building basic web apps.
+The time estimates for the tasks above assume that you are familiar or have professional experience with testing techniques and building basic web apps.
 
 ## Task 1
 

@@ -3,7 +3,7 @@
 
 # Objective
 
-You are a DevOps engineer working for an ad-tech company called Blue Banana.
+You are a DevOps engineer working at an ad-tech company called Blue Banana.
 
 The current CI/CD process automates the provision of services on virtual machines running some linux distribution.
 
@@ -13,7 +13,7 @@ You decide to make the first step with the deployment of the company's blog site
 
 # Tasks
 
-The assignments comprises two tasks.
+The assignment comprises two tasks.
 
 | Task Objective | Expected Completion Time |
 |---|---|
