@@ -11,7 +11,7 @@ Hey there :)
 
 You are a Product Manager working at an ad-tech company called Blue Banana.
 
-Blue Banana works with multiple advertisers who run campaigns with us. Unlike our competitors such as AppLift and InMobi, our campaign reporting is completely manual. Currently campaign performance metrics are communicated manually via csv reports attached in emails.
+Blue Banana works with multiple advertisers who run app install (user acquisition) campaigns with us. Unlike our competitors such as AppLift and InMobi, our campaign reporting is completely manual. Currently campaign performance metrics are communicated manually via csv reports attached in emails.
 
 Your objective is to assemble a team that will develop a new product that will allow our advertisers to check their campaigns' reporting on-demand and without the need for our own account managers to get involved.
 
@@ -21,8 +21,15 @@ The users of this new proudct will be advertisers who are running campaigns with
 
 - They are comfortable with numbers.
 - They demand as much flexibility as possible when it comes to slicing and dicing their numbers.
-- The main metrics our advertisers are interested in are Spend, click-through-rate (CTR) and number of Installs.
+- The main metrics our advertisers are interested in are Spend, CTR and number of Installs.
 - The main dimensions/splits our advertisers are interested in when they are looking at their metrics are Country, Time and Campaign Id.
+
+The most common reports our advertisers need are:
+
+- The total amount spent last month for all of their campaigns
+- Best and worst performing campaigns in terms of number of Installs for the current month 
+- A breakdown of Spend per country for this year
+- A breakdown of Installs per campaign for the last 7 days 
 
 # Tasks
 
