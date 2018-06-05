@@ -36,8 +36,11 @@ The most common reports our advertisers need are:
 The assignment comprises of four tasks.
 
 [Task 1:](#task-1) Describe the product functionality and roadmap using high level user stories/epics 
+
 [Task 2:](#task-2) Design quick wireframes for the new product 
+
 [Task 3:](#task-3) Describe the ideal team structure and process 
+
 [Task 4:](#task-4) Describe how you would identify if the product is successful or not 
 
 
