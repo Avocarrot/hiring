@@ -17,7 +17,7 @@ Your objective is to assemble a team that will develop a new product that will a
 
 # User profile
 
-The users of this new proudct will be advertisers who are running campaigns with Blue Banana and they want to monitor the performance of those campaigns. 
+The users of this new product will be advertisers who are running campaigns with Blue Banana and they want to monitor the performance of those campaigns. 
 
 - They are comfortable with numbers.
 - They demand as much flexibility as possible when it comes to slicing and dicing their numbers.
@@ -35,12 +35,10 @@ The most common reports our advertisers need are:
 
 The assignment comprises of four tasks.
 
-| Task Objective | Expected Completion Time |
-|---|---|
-| [Task 1:](#task-1) Describe the product functionality and roadmap using high level user stories/epics | ~30 minutes |
-| [Task 2:](#task-2) Design quick wireframes for the new product | ~60 minutes |
-| [Task 3:](#task-3) Describe the ideal team structure and process | ~60 minutes |
-| [Task 4:](#task-4) Describe how you would identify if the product is successful or not | ~60 minutes |
+[Task 1:](#task-1) Describe the product functionality and roadmap using high level user stories/epics 
+[Task 2:](#task-2) Design quick wireframes for the new product 
+[Task 3:](#task-3) Describe the ideal team structure and process 
+[Task 4:](#task-4) Describe how you would identify if the product is successful or not 
 
 
 ## Task 1
@@ -75,5 +73,3 @@ Describe how you would identify if the product is successful or not.
 # Deliverables
 
 You can submit your assignment solution as a document which clearly outlines your answers to the different tasks. Please share with us this document by any means you find more convenient such as PDF, Google Doc etc.
-
-
