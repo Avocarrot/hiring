@@ -48,8 +48,8 @@ The assignment comprises of four tasks.
 
 Describe the product functionality and roadmap using high level user stories/epics. 
  
-- For each story provide acceptance criteria.
-- How would you prioritize the stories in a roadmap?
+- The level of detail for each story is up to you but at a minimum please provide the acceptance criteria.
+- How would you prioritize the stories in a roadmap and why?
 
 ## Task 2
 
@@ -59,7 +59,7 @@ The level of detail for the wireframes is up to you but we'd recommend to keep i
 
 ## Task 3
 
-Describe the ideal team structure and process based on your experience and product requirements.  
+Describe the ideal team structure and process based on your experience and product requirements. 
 
 You can talk about:
 
@@ -68,6 +68,8 @@ You can talk about:
 - methodology used to run the team 
 - tools that you'll be using for project management
 - metrics that you'll use to track the team's efficiency 
+
+You are free to make any choice you want but please give us the reasoning behind your choices.
 
 ## Task 4
 
