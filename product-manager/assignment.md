@@ -49,13 +49,13 @@ The assignment comprises of four tasks.
 Describe the product functionality and roadmap using high level user stories/epics. 
  
 - The level of detail for each story is up to you but at a minimum please provide the acceptance criteria.
-- How would you prioritize the stories in a roadmap and why?
+- How would you prioritize the roadmap and release plan? Please explain the logic behind your choices.
 
 ## Task 2
 
 Design quick wireframes for the new product. 
 
-The level of detail for the wireframes is up to you but we'd recommend to keep it as simple as possible.  
+The level of detail for the wireframes is up to you but we'd strongly recommend to keep it as simple as possible.  
 
 ## Task 3
 
