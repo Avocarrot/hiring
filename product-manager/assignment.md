@@ -5,6 +5,7 @@
 Hey there :)
 
 - Please read the instructions carefully before start implementing your solution.
+- The assignment includes some jargon which you might not be familiar with. Do not worry about that. We do not expect you to be an ad-tech expert :) Feel free to research those terms but you do not have to. For your own convenience, we include below a table with quick explanations for the terms. 
 - If something is not clear to you please do not hesitate to get in touch with us for clarifications. We’d love to help you out!
 
 # Objective
@@ -24,20 +25,35 @@ The users of this new product will be advertisers who are running campaigns with
 - The main metrics our advertisers are interested in are Spend, CTR and number of Installs.
 - The main dimensions/splits our advertisers are interested in when they are looking at their metrics are Country, Time and Campaign Id.
 
-The most common reports our advertisers need are:
+Some example reports include:
 
 - The total amount spent last month for all of their campaigns
 - Best and worst performing campaigns in terms of number of Installs for the current month 
 - A breakdown of Spend per country for this year
 - A breakdown of Installs per campaign for the last 7 days 
 
+Please note that the above examples are only a small subset of what our advertisers are interested in and keep in mind they want as much flexibility in slicing and dicing their numbers. 
+
+# Quick jargon explanation
+
+We do not expect you to be an ad-tech expert so do not worry about ad-tech specific jargon. For your own convenience please find below a table of quick explanations.
+
+| Term  | Explanation  | 
+|---|---|
+| Ad-tech | Short for Advertising Technology which is the name of our industry |
+| Spend | The amount of money (in dollars) an advertiser spends on ad campaigns |
+| Install | Install is an event which counts how many times an app was installed on a user device|
+| Impression | Impression is an event which counts how many times an ad has been viewed |
+| Click | Click is an event which counts how many times an ad has been clicked |
+| CTR | Short for Click Through Rate. It's a metric that is calculated by diving Clicks / Impressions |
+
 # Tasks
 
 The assignment comprises of four tasks.
 
-[Task 1:](#task-1) Describe the product functionality and roadmap using high level user stories/epics 
+[Task 1:](#task-1) Design quick wireframes for the new product 
 
-[Task 2:](#task-2) Design quick wireframes for the new product 
+[Task 2:](#task-2) Describe the product functionality and roadmap using high level user stories/epics 
 
 [Task 3:](#task-3) Describe the ideal team structure and process 
 
@@ -46,16 +62,16 @@ The assignment comprises of four tasks.
 
 ## Task 1
 
+Design quick wireframes for the new product. 
+
+The level of detail for the wireframes is up to you but we'd strongly recommend to keep it as simple as possible.  
+
+## Task 2
+
 Describe the product functionality and roadmap using high level user stories/epics. 
  
 - The level of detail for each story is up to you but at a minimum please provide the acceptance criteria.
 - How would you prioritize the roadmap and release plan? Please explain the logic behind your choices.
-
-## Task 2
-
-Design quick wireframes for the new product. 
-
-The level of detail for the wireframes is up to you but we'd strongly recommend to keep it as simple as possible.  
 
 ## Task 3
 
