@@ -33,16 +33,6 @@ Notes:
 - The requests to the bidders should be fired in parallel to avoid high latency.
 - If a bid request to a certain bidder fails then the exchange should dismiss that bid and continue its flow with the rest of the bidders.
 
-# Where can I find the codebase?
-
-The assignment is implemented in various popular programming languages so that you can choose the one that you feel more comfortable with. 
-
-- [Java]()
-- [Go]() 
-- [Nodejs](https://github.com/Avocarrot/mx-nodejs)
-- [Python]()
-- [PHP]()
-
 # Tasks
 
 The assignment consists of 2 tasks.
@@ -62,6 +52,12 @@ Review the code carefully and add any feedback/comments/suggestions you may have
 
 Please feel free to suggest anything you think that can be improved. Let us know the reasoning behind your suggestions. 
 
+### Where can I find the code to be reviewed?
+
+1. You should have received a Github classroom link which will give you access to the repo to be reviewed. 
+2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/ad-exchange```.
+3. Add your review comments in that Pull Request.
+
 ## Task 2
 
 Implement your suggested improvements and implement end-to-end test cases to check that the business requirements are satisfied.
@@ -69,7 +65,9 @@ Implement your suggested improvements and implement end-to-end test cases to che
 - You are free to change whatever you want in the entire codebase. You can install any dependencies you might need. There is absolutely no limitation.
 - The codebase already contains some (failing) test code and fixtures. Again you can change whatever needs to be changed to make the tests run and verify that the app works as expected. Install anything you need. Change anything you need.   
 - For your end-to-end test cases you will need to know how to communicate with the bidders. The API documentation for this purpose can be found [here](https://bidderapi.docs.apiary.io).
+- Your new changes should be implemented in a separate Pull Request.
 
 # Deliverables
 
-When you are done implementing your changes create a new Pull Request and submit your assignment.
+1. The original Pull Request which contains your review comments.
+2. The new Pull Request that contains your changes.
