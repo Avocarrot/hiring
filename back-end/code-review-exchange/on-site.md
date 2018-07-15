@@ -3,7 +3,7 @@
 
 # Objective
 
-For this assignment we'll be extending the implementation of the bidder you developed previously.
+For this assignment we'll be extending the functionality of the codebase you reviewed in your assignment.  
 
 # Tasks
 
@@ -11,14 +11,14 @@ The assignment is split into seperate tasks. Each task builds on the work done f
 
 | Task Objective | Expected Completion Time |
 |---|---|
-| [Task 1:](#task-1) Discuss the requirements of a new proposed bidder extension and think about its system architecture and specifications | ~1.5 hours |
+| [Task 1:](#task-1) Discuss the requirements of a new proposed feature and think about its system architecture and specifications | ~1.5 hours |
 | [Task 2:](#task-2) Implement a small component of the proposed architecture. | ~1.5 hours |
 
 ## Task 1
 
 ### Objective
 
-We will work on a real-life scenario where there is the business need for an extension to our bidder. We will discuss the requirements of this new feature and think about its system architecture and specifications. 
+We will work on a real-life scenario where there is the business need for an new feature to our exchange.We will discuss the requirements of this new feature and think about its system architecture and specifications. 
 
 ## Task 2
 
