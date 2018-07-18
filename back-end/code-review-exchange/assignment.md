@@ -61,6 +61,7 @@ Please feel free to suggest anything you think that can be improved. Let us know
     - Go (Work in progress)
     - PHP (Work in progress) 
     - Ruby (Work in progress) 
+2. When you accept the assignment a new repo will be created which is the one you will be working on. You have admin rights so you can do anything you want.
 2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/ad-exchange```.
 3. Add your review comments in that Pull Request.
 
