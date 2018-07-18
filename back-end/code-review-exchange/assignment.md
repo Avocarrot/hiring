@@ -30,7 +30,7 @@ The codebase you are about to review is expected to implement the flow described
 
 Notes:
 
-- The requests to the bidders should be fired in parallel to avoid high latency.
+- The requests to the bidders should be fired in parallel since the calls are independent and therefore we can avoid high latency.
 - If a bid request to a certain bidder fails then the exchange should dismiss that bid and continue its flow with the rest of the bidders.
 
 # Tasks
@@ -60,6 +60,7 @@ Please feel free to suggest anything you think that can be improved. Let us know
     - Python (Work in progress)
     - Go (Work in progress)
     - PHP (Work in progress) 
+    - Ruby (Work in progress) 
 2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/ad-exchange```.
 3. Add your review comments in that Pull Request.
 
@@ -75,4 +76,4 @@ Implement your suggested improvements and implement end-to-end test cases to che
 # Deliverables
 
 1. The original Pull Request which contains your review comments.
-2. The new Pull Request that contains your changes.
+2. The new Pull Request that contains your changes. Feel free to add any interesting approaches or important points in the PR's description.
