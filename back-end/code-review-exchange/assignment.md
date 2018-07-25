@@ -50,7 +50,7 @@ The time estimates for the tasks above assume that you are familiar or have prof
 
 Review the code carefully and add any feedback/comments/suggestions you may have. 
 
-Please feel free to suggest anything you think that can be improved. Let us know the reasoning behind your suggestions. 
+Please feel free to suggest anything you think that can be improved. There is no limitation on what you can suggest so add your comments freely. Please do not forget to explain your reasoning behind your suggestions. 
 
 ### Where can I find the code to be reviewed?
 
@@ -61,20 +61,23 @@ Please feel free to suggest anything you think that can be improved. Let us know
     - Go (Work in progress)
     - PHP (Work in progress) 
     - Ruby (Work in progress) 
-2. When you accept the assignment a new repo will be created which is the one you will be working on. You have admin rights so you can do anything you want.
-2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/ad-exchange```.
+2. When you accept the assignment a new repo will be created which is the one you will be working on. You have admin rights so you can do anything you want. This repo contains a branch called ```feat/ad-exchnage``` which contains the code that you will review.
+2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/ad-exchange```. Use this Pull Request ONLY to add your code review comments.
 3. Add your review comments in that Pull Request.
 
 ## Task 2
 
-Implement your suggested improvements and implement end-to-end test cases to check that the business requirements are satisfied.
+Implement your suggested improvements and end-to-end test cases to check that the business requirements are satisfied.
 
 - You are free to change whatever you want in the entire codebase. You can install any dependencies you might need. There is absolutely no limitation.
 - The codebase already contains some (failing) test code and fixtures. Again you can change whatever needs to be changed to make the tests run and verify that the app works as expected. Install anything you need. Change anything you need.   
 - For your end-to-end test cases you will need to know how to communicate with the bidders. The API documentation for this purpose can be found [here](https://bidderapi.docs.apiary.io).
 - Your new changes should be implemented in a separate Pull Request.
+- There is no need to implement unit tests, just the end to end tests!
 
 # Deliverables
+
+At the end you should have TWO separate Pull Requests:
 
 1. The original Pull Request which contains your review comments.
 2. The new Pull Request that contains your changes. Feel free to add any interesting approaches or important points in the PR's description.
