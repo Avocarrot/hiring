@@ -26,8 +26,8 @@ The code you are about to review is adding a new feature on our Bidder Managemen
 
 The exact business requirements are summarized below.
 
-1. Given that a user visit the ```/bidders``` page, then it should display the bidders split in different columns depending on their state, when the client loaded the bidders successfully.
-2. Given that a user visit the ```/bidders``` page, then it should display an error message when the client failed to load the bidders.
+1. When a user visits the ```/bidders``` page, then it should display the bidders split in different columns depending on their state, given that the client loaded the bidders successfully.
+2. When a user visits the ```/bidders``` page, then it should display an error message given that the client failed to load the bidders.
 
 Notes:
 
