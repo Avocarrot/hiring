@@ -67,6 +67,7 @@ Please feel free to suggest anything you think that can be improved. There is no
 
 Implement your suggested improvements and end-to-end test cases to check that the business requirements are satisfied.
 
+- Please create a new branch and implement your changes on that one so that it's easier for us to review your changes.
 - You are free to change whatever you want in the entire codebase. You can install any dependencies you might need. There is absolutely no limitation.
 - The codebase already contains some (failing) test code and fixtures. Again you can change whatever needs to be changed to make the tests run and verify that the app works as expected. Install anything you need. Change anything you need.   
 - For your end-to-end test cases you will need to know how to communicate with the [Bidder Management API](http://docs.biddermanagement.apiary.io). 
