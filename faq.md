@@ -51,13 +51,13 @@ Of course. You are actually encouraged to bring your own equipment so that you f
 
 ### Where is the office located in Athens?
 
-The office is located right next to Kerameikos metro station.
+The office is located very close to Syntagma metro station.
 The address is: 
 
-2nd floor
+Stadiou 3A
 
-52 Konstantinoupoleos Street,
+8th floor,
 
-11854
+105 62
 
 Athens, Greece
