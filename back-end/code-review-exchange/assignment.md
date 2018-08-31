@@ -59,7 +59,7 @@ Please feel free to suggest anything you think that can be improved. There is no
     - [Node.js](https://classroom.github.com/a/6477OM7L)
     - [Ruby](https://classroom.github.com/a/XaYZ5VRN) 
     - [C#](https://classroom.github.com/a/guPzpqTO)
-    - Python (Work in progress)
+    - [Python](https://classroom.github.com/a/qiSGslVG)
     - Go (Work in progress)
     - PHP (Work in progress) 
 2. When you accept the assignment a new repo will be created which is the one you will be working on. You have admin rights so you can do anything you want. This repo contains a branch called ```feat/ad-exchnage``` which contains the code that you will review.
