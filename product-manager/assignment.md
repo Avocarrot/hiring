@@ -47,6 +47,15 @@ We do not expect you to be an ad-tech expert so do not worry about ad-tech speci
 | Click | Click is an event which counts how many times an ad has been clicked |
 | CTR | Short for Click Through Rate. It's a metric that is calculated by diving Clicks / Impressions |
 
+# Assumptions
+
+In order to simplify the following tasks and help you focus on the main objective you can make the following assumptions:
+
+- There is a separate tracking system which is used to collect all the metrics and dimensions we need. You can interface with this tracking system to retrieve the data you may need. 
+- There is a separate authentication/login system which you can reuse in your solution. No need to worry about this one.
+- There is no limitation in the budget but of course we'd prefer to minimize costs. 
+
+
 # Tasks
 
 The assignment comprises of four tasks.
