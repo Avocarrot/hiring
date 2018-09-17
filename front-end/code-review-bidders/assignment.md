@@ -90,7 +90,7 @@ If you need to implement styling please use the CSS styling already implemented 
 
 # Deliverables
 
-At the end you should have TWO separate Pull Requests:
+At the end you should have *2 (TWO)* separate Pull Requests:
 
 1. The original Pull Request which contains your review comments.
 2. The new Pull Request that contains your changes. Feel free to add any interesting approaches or important points in the PR's description.
