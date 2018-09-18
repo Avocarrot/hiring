@@ -3,7 +3,7 @@
 
 # Objective
 
-You are a mobile software engineer for an advertising technology company called Blue Banana. A fellow software engineer just implemented a (super) simple SDK/library which implements an simple ad exchange logic. The SDK will be used by mobile developers to be integrated inside theri mobile apps. You are given the task of reviewing their code before releasing it to production. 
+You are a mobile software engineer for an advertising technology company called Blue Banana. A fellow software engineer just implemented a (super) simple SDK/library which implements an simple ad exchange logic. The SDK will be used by mobile developers to be integrated inside their mobile apps. You are given the task of reviewing their code before releasing it to production. 
 
 Notes: 
 
