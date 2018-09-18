@@ -18,7 +18,7 @@ An ad exchange facilitates the buying and selling of ads in real time.
 
 The ad exchange receives the bids and the highest bidder wins the auction and gets to show their ad. The flow is summarized in the diagram below.
 
-![auction-process](/static/mobile-auction-process.jpg){:width="100%"}
+![auction-process](/static/auction-process.png){:width="100%"}
 
 
 # What does the codebase your colleague implemented do?
