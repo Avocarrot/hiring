@@ -3,7 +3,7 @@
 
 # Objective
 
-You are a software engineer for an advertising technology company called Blue Banana. A fellow software engineer just implemented a (super) simple ad exchange and you are given the task of reviewing their code before releasing it to production. 
+You are a mobile software engineer for an advertising technology company called Blue Banana. A fellow software engineer just implemented a (super) simple SDK/library which implements an simple ad exchange logic. The SDK will be used by mobile developers to be integrated inside theri mobile apps. You are given the task of reviewing their code before releasing it to production. 
 
 Notes: 
 
@@ -11,28 +11,30 @@ Notes:
 
 # What is an ad exchange?
 
-An ad exchange is a platform which facilitates the buying and selling of ads in real time.
+An ad exchange facilitates the buying and selling of ads in real time.
 
-- On one side of the ad exchange we have the mobile apps which send requests to our exchange to sell their traffic. 
+- On one side of the ad exchange we have a mobile app which calls the ad exchange library to request ads. 
 - On the other side, the exchange communicates with bidders which submit their bids for the traffic if they are interested in buying it. These bidders are 3rd party companies and the exchange simply communicates with them via a predefined protocol.
 
 The ad exchange receives the bids and the highest bidder wins the auction and gets to show their ad. The flow is summarized in the diagram below.
 
-![auction-process](/static/auction-process.jpg){:width="100%"}
+![auction-process](/static/mobile-auction-process.jpg){:width="100%"}
 
 
 # What does the codebase your colleague implemented do?
 
-The codebase you are about to review is expected to implement the flow described above. The exact business requirements are summarized below.
+The codebase you are about to review is expected to ship an SDK which implements the flow described above. The exact business requirements are summarized below.
 
-1. Given that the ad exchange receives a request for bids from a client, then it should respond with status 200 and a body containing the bid with highest price, when at least one of the bidders sent a bid. 
-2. Given that the ad exchange receives a request for bids from a client, then it should respond with status 204 and an empty body, when none of the bidders sent a bid. 
+1. Given that the SDK receives a request for an ad from the mobile app and at least one bidder replied with a bid, then it should show the ad from the highest bidder in a full screen webview with a close button. Also it should fire a callback called ```onLoadAd``` to notify the client. 
+2. Given that the SDK receives a request for an ad from the mobile app and no bidder returned a bid, then it should do nothing and fire a callback called ```onNoFill``` to notify the client.
+3. Given that the SDK receives a request for an ad from the mobile app and for any reason (other than HTTP errors from bidders) the SDK fails, then it should fire a callback called ```onError``` to notify the client.
 
 Notes:
 
 - The requests to the bidders should be fired in parallel since the calls are independent and therefore we can avoid high latency.
-- If a bid request to a certain bidder fails then the exchange should dismiss that bid and continue its flow with the rest of the bidders.
-- The exchange should be able to facilitate an arbitrary number of bidder endpoints/connections in the future.
+- If a bid request to a certain bidder fails then the SDK should dismiss that bid and continue its flow with the rest of the bidders.
+- The SDK should be able to facilitate an arbitrary number of bidder endpoints/connections in the future.
+- The codebase should produce a package lib which would be distributed to mobile app developers
 
 # Tasks
 
@@ -45,7 +47,7 @@ The assignment consists of 2 tasks.
 
 ## Timing assumptions
 
-The time estimates for the tasks above assume that you are familiar or have professional experience with testing techniques and building basic web apps.
+The time estimates for the tasks above assume that you are familiar or have professional experience with testing techniques and building basic mobile apps.
 
 ## Task 1
 
@@ -56,15 +58,10 @@ Please feel free to suggest anything you think that can be improved. There is no
 ### Where can I find the code to be reviewed?
 
 1. You should have received a Github classroom link which will give you access to the repo to be reviewed. If you didn't then please click on your language of choice below:
-    - [Java](https://classroom.github.com/a/tJkWEwrP)
-    - [Node.js](https://classroom.github.com/a/6477OM7L)
-    - [Ruby](https://classroom.github.com/a/XaYZ5VRN) 
-    - [C#](https://classroom.github.com/a/guPzpqTO)
-    - [Python](https://classroom.github.com/a/qiSGslVG)
-    - Go (Work in progress)
-    - PHP (Work in progress) 
-2. When you accept the assignment a new repo will be created which is the one you will be working on. You have admin rights so you can do anything you want. This repo contains a branch called ```feat/ad-exchnage``` which contains the code that you will review.
-2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/ad-exchange```. Use this Pull Request ONLY to add your code review comments. If you are not familiar with Github's pull requests please check out [this link](https://help.github.com/articles/creating-a-pull-request/) to find out more.
+    - [Android](https://classroom.github.com/a/_5lpetXq)
+    - iOS (Work in progress) 
+2. When you accept the assignment a new repo will be created which is the one you will be working on. You have admin rights so you can do anything you want. This repo contains a branch called ```feat/interstitial``` which contains the code that you will review.
+2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/interstitial```. Use this Pull Request ONLY to add your code review comments. If you are not familiar with Github's pull requests please check out [this link](https://help.github.com/articles/creating-a-pull-request/) to find out more.
 3. Add your review comments in that Pull Request.
 
 ### How do I submit my code review comments?
