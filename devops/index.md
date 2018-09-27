@@ -19,6 +19,6 @@
 | Step | Description |
 |---|---|
 | CV review | We review candidates' CV applications looking mainly at past projects and areas of expertise. |
-| [Assignment](assignment.md) | Candidates receive an assignment based on real-life work we do at {{site.companyName}}. |
+| Phone Screen | Candidates join us on a quick Skype/Hangouts call where we work together on a practical case study. |
 | On-site interview | This part extends the work the candidate has done in the assignment. The candidate works with our team on designing and implementing a software system. |
 | Offer | An offer is made to the candidate. |
