@@ -55,11 +55,12 @@ Please feel free to suggest anything you think that can be improved. There is no
 
 ### Where can I find the code to be reviewed?
 
-1. You should have received a Github classroom link which will give you access to the repo to be reviewed. If you didn't then please click on your language of choice below:
+1.  Please click on your language of choice below and you will be prompted to start the assignment. The repo which contains the code will be created automatically.
     - [Java](https://classroom.github.com/a/tJkWEwrP)
     - [Node.js](https://classroom.github.com/a/6477OM7L)
     - [Ruby](https://classroom.github.com/a/XaYZ5VRN) 
     - [C#](https://classroom.github.com/a/guPzpqTO)
+    - [Rust](https://classroom.github.com/a/Mn4GISpr)
     - [Python](https://classroom.github.com/a/qiSGslVG)
     - [Go](https://classroom.github.com/a/bTMzFLj5)
     - PHP (Work in progress) 
