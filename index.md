@@ -2,13 +2,23 @@
 
 # About {{site.companyName}} 
 
-{{site.companyName}} is the leading programmatic ad exchange for mobile publishers, powered by Glispa.
+{{site.companyName}} is a mobile ad tech company fully dedicated to empowering our partners with sophisticated solutions. We make it simple for agencies and brands to connect with target audiences and for publishers to monetize their apps. 
 
-We are growing at a fast pace and looking for exceptional software engineers to help us keep up with the requirements of a product that needs to handle billions of requests each month.
+We are growing at a fast pace and looking for exceptional software engineers, UI/UX designers and product managers to help us keep up with the requirements of a product that needs to handle billions of requests each month.
 
-- We are serving more than 12 billion ad requests / month
-- We have 11K+ registered users across the globe
-- Our team is distributed in 6 offices (Athens, Berlin, Tel Aviv, Beijing, Sao Paolo, San Francisco)
+- We are serving more than 200+ billion ad requests / month
+- Our team is distributed in 7 offices (Athens, Berlin, Tel Aviv, Nicosia, Beijing, Sao Paolo, San Francisco)
+
+# Sections 
+
+- [Open positions](#open-positions)
+- [Benefits](#benefits)
+- [Team culture](#team-culture)
+- [Having fun](#having-fun)
+- [Recruitment process](#recruitment-process)
+
+
+Please read our Candidate FAQ [here](faq.md).
 
 # Open positions
 
@@ -72,6 +82,10 @@ Glispa is a fast-growing and profitable company. This guarantees that not only y
 - **Control Your Own Time**
 <br>
 We believe in quality over quantity, so our working hours are flexible. You can choose those that make you feel comfortable, while making sure you have a decent overlap with the rest of the team. There is also the chance of occasional remote work if one day you feel like staying at home.
+
+**Training Budget**
+<br>
+If you need more time to learn about our stack, product, study a new language or framework you can freely do so during working hours. Also any expenses for material that you may need such as books or online courses are covered by {{site.companyName}}. 
 
 - **Free Equipment of Your Choice**
 <br>
@@ -142,10 +156,6 @@ We like to experiment with new technologies and frameworks. Our stack is compris
       </div>
     </div>
 </div>
-
-# Candidate FAQ
-
-Please read our Candidate FAQ [here](faq.md).
 
 <br>
 <div class="cta-section">
