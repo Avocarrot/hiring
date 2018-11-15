@@ -9,15 +9,6 @@ We are growing at a fast pace and looking for exceptional software engineers, UI
 - We are serving more than 200+ billion ad requests / month
 - Our team is distributed in 7 offices (Athens, Berlin, Tel Aviv, Nicosia, Beijing, Sao Paolo, San Francisco)
 
-# Sections 
-
-- [Open positions](#open-positions)
-- [Benefits](#benefits)
-- [Team culture](#team-culture)
-- [Having fun](#having-fun)
-- [Recruitment process](#recruitment-process)
-
-
 Please read our Candidate FAQ [here](faq.md).
 
 # Open positions
