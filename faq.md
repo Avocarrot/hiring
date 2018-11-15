@@ -4,15 +4,19 @@
 
 ## Tech and Team
 
+### How is the team structured?
+
+The team is split into 3 cross-functional teams each one handling a different product. By being cross functional each team consists of people of different skills such as devops, front-end and back-end engineers, UI/UX designers, product managers etc. Therefore each team is self-sufficient and able to move independently, choosing their own stack and process. Having said that, we operate horizontal chapters which try to normalize the use of technology and process across the company.
+
 ### What is your stack?
 
-Since the early days of {{site.companyName}} we have embraced the microservice architecture mindset. For this reason our system is comprised of smaller modular services which help us move faster in development but also achieve the scalability we want. The product has 4 main parts:
+Since the early days of {{site.companyName}} we have embraced the microservice architecture mindset. For this reason our system is comprised of smaller modular services which help us move faster in development but also achieve the scalability we want. We use a variety of technologies such as:
 
 | Part | Technologies |
 |---|---|
 | Ad serving pipeline | Go, Scala, Python, Java and Node.js, AWS, Ansible |
 | Data pipeline | Apache Kafka and Spark, Hadoop and Druid |
-| Front-end user platforms | Ember.js and React.js |
+| Front-end user platforms | React and Angular |
 | Mobile SDKs | Java (Android), Swift (iOS)  |
 
 ### Where are your services hosted?
