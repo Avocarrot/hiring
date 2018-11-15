@@ -67,7 +67,7 @@ Glispa is a fast-growing and profitable company. This guarantees that not only y
 <br>
 We believe in quality over quantity, so our working hours are flexible. You can choose those that make you feel comfortable, while making sure you have a decent overlap with the rest of the team. There is also the chance of occasional remote work if one day you feel like staying at home.
 
-**Training Budget**
+- **Training Budget**
 <br>
 If you need more time to learn about our stack, product, study a new language or framework you can freely do so during working hours. Also any expenses for material that you may need such as books or online courses are covered by {{site.companyName}}. 
 
