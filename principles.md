@@ -34,6 +34,6 @@ The recruitment process is a work in progress.
 
 We changed it many times to reflect both the realities of the market but most importantly to incorporate changes suggested by you. During your interview we will ask you for your honest feedback about the process but you can always get in touch with us about your comments. 
 
-![team-interview](/static/team-interview.jpg){:width="100%"}
+![team-interview](/static/team-interview.jpg)
 
 {% include apply-now.md %}
