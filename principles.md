@@ -10,7 +10,7 @@ However, our principles always stay the same. These principles guide how we appr
 
 We will never ask you to memorize bubble sort or the signature of an obscure Java method. We have Google and Stackoverflow for this :) 
 
-Instead of that our process mirrors the way we work on a daily basis and simplified versions of our real products. Everything that you will be asked during the process is derived from real life cases, ranging from high level questions such as “how can we architect a scalable solution for problem X?” to low level ones such as “how can we test that this function is behaving correctly?”.
+Instead of that our process mirrors the way we work on a daily basis and uses simplified versions of our real products. Everything that you will be asked during the process is derived from real life cases, ranging from high level questions such as “how can we architect a scalable solution for problem X?” to low level ones such as “how can we test that this function is behaving correctly?”.
 
 ## 2. The recruitment process is a two way road
 

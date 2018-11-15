@@ -4,7 +4,10 @@
 
 {{site.companyName}} is a mobile ad tech company fully dedicated to empowering our partners with sophisticated solutions. We make it simple for agencies and brands to connect with target audiences and for publishers to monetize their apps. 
 
-With a decade in the advertising industry, {{site.companyName}} employs a diverse team of 50 nationalities speaking over 45 languages. Operating across 9 international offices, we combine an experienced global workforce with local market expertise. 
+We are growing at a fast pace and looking for exceptional software engineers, UI/UX designers and product managers to help us keep up with the requirements of a product that needs to handle billions of requests each month.
+
+- We are serving more than 200+ billion ad requests / month
+- Our team is distributed in 7 offices (Athens, Berlin, Tel Aviv, Nicosia, Beijing, Sao Paolo, San Francisco)
 
 Please read our Candidate FAQ [here](faq.md).
 
@@ -63,6 +66,10 @@ Glispa is a fast-growing and profitable company. This guarantees that not only y
 - **Control Your Own Time**
 <br>
 We believe in quality over quantity, so our working hours are flexible. You can choose those that make you feel comfortable, while making sure you have a decent overlap with the rest of the team. There is also the chance of occasional remote work if one day you feel like staying at home.
+
+**Training Budget**
+<br>
+If you need more time to learn about our stack, product, study a new language or framework you can freely do so during working hours. Also any expenses for material that you may need such as books or online courses are covered by {{site.companyName}}. 
 
 - **Free Equipment of Your Choice**
 <br>
