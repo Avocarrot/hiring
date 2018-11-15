@@ -2,13 +2,11 @@
 
 # About {{site.companyName}} 
 
-{{site.companyName}} is the leading programmatic ad exchange for mobile publishers, powered by Glispa.
+{{site.companyName}} is a mobile ad tech company fully dedicated to empowering our partners with sophisticated solutions. We make it simple for agencies and brands to connect with target audiences and for publishers to monetize their apps. 
 
-We are growing at a fast pace and looking for exceptional software engineers to help us keep up with the requirements of a product that needs to handle billions of requests each month.
+With a decade in the advertising industry, {{site.companyName}} employs a diverse team of 50 nationalities speaking over 45 languages. Operating across 9 international offices, we combine an experienced global workforce with local market expertise. 
 
-- We are serving more than 12 billion ad requests / month
-- We have 11K+ registered users across the globe
-- Our team is distributed in 6 offices (Athens, Berlin, Tel Aviv, Beijing, Sao Paolo, San Francisco)
+Please read our Candidate FAQ [here](faq.md).
 
 # Open positions
 
@@ -136,15 +134,4 @@ We like to experiment with new technologies and frameworks. Our stack is compris
     </div>
 </div>
 
-# Candidate FAQ
-
-Please read our Candidate FAQ [here](faq.md).
-
-<br>
-<div class="cta-section">
-  <div class="row column text-center">
-    <h3>It takes only <em style="color:#ffe800">2 minutes</em> to apply</h3>
-    <a class="primary button" style="background-color:#ffe800; color:#000000" target="_blank" href="https://glispaconnect.workable.com/">Apply Now</a>
-  </div>
-</div>
-
+{% include apply-now.md %}
