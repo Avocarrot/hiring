@@ -48,13 +48,6 @@ Please read our Candidate FAQ [here](faq.md).
                 <div class="columns text-center">
                     <div class="card-block">
                         <i class="icon design_code"></i>
-                        <p>Senior Product Manager</p>
-                        <a href="/hiring/product-manager"  class="button-link"> Read More</a>
-                    </div>
-                </div>
-                <div class="columns text-center">
-                    <div class="card-block">
-                        <i class="icon design_code"></i>
                         <p>Android Software Engineer</p>
                         <a href="/hiring/android"  class="button-link"> Read More</a>
                     </div>
@@ -148,11 +141,4 @@ We like to experiment with new technologies and frameworks. Our stack is compris
     </div>
 </div>
 
-<br>
-<div class="cta-section">
-  <div class="row column text-center">
-    <h3>It takes only <em style="color:#ffe800">2 minutes</em> to apply</h3>
-    <a class="primary button" style="background-color:#ffe800; color:#000000" target="_blank" href="https://glispaconnect.workable.com/">Apply Now</a>
-  </div>
-</div>
-
+{% include apply-now.md %}
