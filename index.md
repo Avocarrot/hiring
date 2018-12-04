@@ -34,6 +34,13 @@ Please read our Candidate FAQ [here](faq.md).
                 <div class="columns text-center">
                     <div class="card-block">
                         <i class="icon design_code"></i>
+                        <p>Full-stack Software Engineer</p>
+                        <a href="/hiring/full-stack"  class="button-link"> Read More</a>
+                    </div>
+                </div>
+                <div class="columns text-center">
+                    <div class="card-block">
+                        <i class="icon design_code"></i>
                         <p>UI/UX <br>  Designer</p>
                         <a href="/hiring/ui-ux"  class="button-link"> Read More</a>
                     </div>
