@@ -58,7 +58,7 @@ Please feel free to suggest anything you think that can be improved. There is no
 
 1. You should have received a Github classroom link which will give you access to the repo to be reviewed. If you didn't then please click on your language of choice below:
     - [React](https://classroom.github.com/a/sQOFY9lb)
-    - Angular (Work in progress)
+    - [Angular](https://classroom.github.com/a/LQCPA8TK)
 2. When you accept the assignment a new repo will be created which is the one you will be working on. You have admin rights so you can do anything you want. This repo contains a branch called ```feat/view-bidders``` which contains the code that you will review.
 2. Click on the Pull Request tab and create a new Pull Request with base branch ```master``` and source branch ```feat/view-bidders```. Use this Pull Request ONLY to add your code review comments. If you are not familiar with Github's pull requests please check out [this link](https://help.github.com/articles/creating-a-pull-request/) to find out more.
 3. Add your review comments in that Pull Request.
