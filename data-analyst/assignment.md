@@ -9,7 +9,7 @@ You are a data analyst for an advertising technology company called Blue Banana.
 
 - Each account manager handles multiple advertising campaigns and the goal of a campaign is to acquire new users for the advertiser's mobile app.
 - We track when a new user installs the advertised app and we call this event **conversion**.
-- The advertiser pays us a fixed amount (called payout) for every campaign converion. 
+- The advertiser pays us a fixed amount (called payout) for every campaign conversion. 
 - The total amount an advertiser pays is called *spend*.
 - Some conversions might be rejected because of fraudulent activity, expired events or any other reason so these conversions should NOT be used in our calculations.
 - Some conversions might be duplicates and should NOT be used in our calculations.
