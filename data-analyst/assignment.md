@@ -23,8 +23,8 @@ You are asked to work on creating the neccessary reports and tools to find a sol
 
 | Dataset Name | Description | Download |
 |---|---|
-| Campaign info | It contains info about the campaign such as campaign id, the payout for each conversion and the account manager responsible for this campaign. | [Link](datasets/bluebanana.db) |
-| Conversion events | The set of conversion events. | [Link](datasets/conversions.zip) |
+| Campaign info | It contains info about the campaign: the unique campaign id, the payout for each conversion and the account manager responsible for this campaign. | [Link](datasets/bluebanana.db) |
+| Conversion events | The set of conversion events. Each event consists of the conversion id (which uniquely identifies a conversion) and the campaign id which identifies for which campaigns this conversion belongs to. | [Link](datasets/conversions.zip) |
 | Rejected conversions | A list of conversion ids that are rejected for various reasons such as being fraudulent etc. | [Link](datasets/rejections.txt) | 
 
 # Tasks
