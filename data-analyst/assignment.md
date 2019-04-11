@@ -34,7 +34,7 @@ The assignment consists of 2 tasks.
 | Task Objective | Expected Completion Time |
 |---|---|
 | [Task 1:](#task-1) Prepare a spreadsheet report for campaigns with declining spend. | ~2 hours |
-| [Task 2:](#task-2) Describe briefly the process followed to produce the above report | ~1 hour |
+| [Task 2:](#task-2) Describe briefly the process followed to produce the report | ~1 hour |
 
 ## Timing assumptions
 
