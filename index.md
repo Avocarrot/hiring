@@ -41,15 +41,8 @@ Please read our Candidate FAQ [here](faq.md).
                 <div class="columns text-center">
                     <div class="card-block">
                         <i class="icon design_code"></i>
-                        <p>UI/UX <br>  Designer</p>
-                        <a href="/hiring/ui-ux"  class="button-link"> Read More</a>
-                    </div>
-                </div>
-                <div class="columns text-center">
-                    <div class="card-block">
-                        <i class="icon design_code"></i>
-                        <p>Android Software Engineer</p>
-                        <a href="/hiring/android"  class="button-link"> Read More</a>
+                        <p>Senior Data Anlyst</p>
+                        <a href="/hiring/data-analyst"  class="button-link"> Read More</a>
                     </div>
                 </div>
             </div>
