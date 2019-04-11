@@ -8,9 +8,9 @@ You are a data analyst for an advertising technology company called Blue Banana.
 # Context 
 
 - Each account manager handles multiple advertising campaigns and the goal of a campaign is to acquire new users for the advertiser's mobile app.
-- The advertiser pays us a fixed amount (called payout) every time the campaign converts a new user. 
 - We track when a new user installs the advertised app and we call this event **conversion**.
-- Some conversions might be rejected because of fraud or any other reason so these conversions should NOT be used in our calculations.
+- The advertiser pays us a fixed amount (called payout) for every campaign converion. 
+- Some conversions might be rejected because of fraudulent activity, expired events or any other reason so these conversions should NOT be used in our calculations.
 - Some conversions might be duplicates and should NOT be used in our calculations.
 
 # Problem
@@ -23,7 +23,7 @@ You are asked to work on creating the neccessary reports and tools to find a sol
 
 | Dataset Name | Description | Format | Download |
 |---|---|---|
-| Campaign info | It contains info about the campaign: the unique campaign id, the payout for each conversion and the account manager responsible for this campaign. | .db (sqlite) | [Link](datasets/bluebanana.db) |
+| Campaign info | It contains info about the campaign: the unique campaign id, the payout for each conversion and the account manager responsible for this campaign. This dataset requires to have [sqlite3](https://sqlite.org/index.html) installed on your computer. | .db (sqlite) | [Link](datasets/bluebanana.db) |
 | Conversion events | The set of conversion events. Each event consists of the conversion id (which uniquely identifies a conversion) and the campaign id which identifies for which campaigns this conversion belongs to. | .csv | [Link](datasets/conversions.zip) |
 | Rejected conversions | A list of conversion ids that are rejected for various reasons such as being fraudulent etc. | .txt | [Link](datasets/rejections.txt) | 
 
@@ -66,7 +66,7 @@ Please keep this summary as short as possible in order to be able to stay within
 ### Deliverables
 
 - A short summary explaining the process you followed to produce the report. This can be a text file, Google doc or anything similar.
-- Any scripts or tools used during the process.
+- Any scripts or screenshots from tools used during the process.
 
 # How to submit the assignment
 
