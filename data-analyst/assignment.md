@@ -16,9 +16,9 @@ You are a data analyst for an advertising technology company called Blue Banana.
 
 # Problem
 
-One of the biggest pain points for the account managers is that they want to know as soon as possible if a campaign is declining in spend. Then they can fine tune its parameters and resolve the problem. Currently, they have no access to any data or reports to do that.
+One of the biggest pain points for the account managers is that they want to know the total spend of the campaigns they manage. Currently, they have no access to any data or reports to do that.
 
-You are asked to work on creating the neccessary reports and tools to find a solution to the problem above.
+You are asked to work on creating a report to find a solution to the problem above.
 
 # Available data sets 
 
@@ -34,7 +34,7 @@ The assignment consists of 2 tasks.
 
 | Task Objective | Expected Completion Time |
 |---|---|
-| [Task 1:](#task-1) Prepare a spreadsheet report for campaigns with declining spend. | ~2 hours |
+| [Task 1:](#task-1) Prepare a spreadsheet report displaying the total spend for each campaign | ~2 hours |
 | [Task 2:](#task-2) Describe briefly the process followed to produce the report | ~1 hour |
 
 ## Timing assumptions
@@ -45,14 +45,8 @@ The time estimatations for the tasks above assume that you are familiar or have 
 
 Prepare a spreadsheet report where the user would be able to:
 
-- See a list of campaigns with declining spend along with their total spend over the selected time period
-- Change the time period over which the report shows data for
+- See a list of campaigns along with their total spend. Each row is a different campaign and there are 3 columns: campaign id, total spend and account manager name.
 - Filter by account manager name so they can focus on their own campaigns
-- See a chart representing the spend of those campaigns over time so they could get a sense of the decline
-
-### Definitions 
-
-A campaign is considered to have a declining spend if it has a decrease in spend higher than 5%, for 2 consecutive days.
 
 ### Deliverables
 
