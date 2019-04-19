@@ -48,6 +48,11 @@ Prepare a spreadsheet report where the user would be able to:
 - See a list of campaigns along with their total spend. Each row is a different campaign and there are 3 columns: campaign id, total spend and account manager name.
 - Filter by account manager name so they can focus on their own campaigns
 
+### Important note
+
+This position requires the knowledge of scripting languages such as Python or R. Therefore, it is highly reccommended to use these instead of tools such as PowerBI etc to implement the solution. 
+In other words we want to see your scripting/coding skills :)
+
 ### Deliverables
 
 - The final sheet report which satisfies the requirements described above.
