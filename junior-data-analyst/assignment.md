@@ -30,12 +30,13 @@ You are asked to work on creating a report to find a solution to the problem abo
 
 # Tasks
 
-The assignment consists of 2 tasks.
+The assignment consists of 3 tasks.
 
 | Task Objective | Expected Completion Time |
 |---|---|
 | [Task 1:](#task-1) Prepare a spreadsheet report displaying the total spend for each campaign | ~2 hours |
-| [Task 2:](#task-2) Describe briefly the process followed to produce the report | ~1 hour |
+| [Task 2:](#task-2) Add a new sheet in the report displaying the campaigns with declining spend | ~1 hours |
+| [Task 3:](#task-3) Describe briefly the process followed to produce the report | ~1 hour |
 
 ## Timing assumptions
 
@@ -48,19 +49,35 @@ Prepare a spreadsheet report where the user would be able to:
 - See a list of campaigns along with their total spend. Each row is a different campaign and there are 3 columns: campaign id, total spend and account manager name.
 - Filter by account manager name so they can focus on their own campaigns
 
+### Important note
+
+This position requires the knowledge of scripting languages such as Python or R. Therefore, it is highly reccommended to use these instead of tools such as PowerBI etc to implement the solution. 
+In other words we want to see your scripting/coding skills :)
+
 ### Deliverables
 
 - The final sheet report which satisfies the requirements described above.
 
 ## Task 2
 
-Describe briefly the process followed to produce the report. Please document any important steps, tools or processes that you used to get to the final report.
+Add a new sheet in the report displaying the campaigns with declining spend: 
+
+- The sheet should be exactly the same as the one for the previous task but should ONLY contain the campaigns with declining spend.
+- A campaign is considered to have a declining spend if it has a decrease in spend higher than 5%, for 2 consecutive days.
+
+### Deliverables
+
+- The final sheet report which satisfies the requirements described above.
+
+## Task 3
+
+Describe briefly the process followed to produce the reports. Please document any important steps, tools or processes that you used to get to the final reports.
 
 Please keep this summary as short as possible in order to be able to stay within the time limits. 
 
 ### Deliverables
 
-- A short summary explaining the process you followed to produce the report. This can be a text file, Google doc or anything similar.
+- A short summary explaining the process you followed to produce the reports. This can be a text file, Google doc or anything similar.
 - Any scripts or screenshots from tools used during the process.
 
 # How to submit the assignment
