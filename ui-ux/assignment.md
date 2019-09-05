@@ -41,7 +41,7 @@ The users of this web app will be advertisers who are running campaigns with Gli
 It is **not** a requirement but it would be nice if the interface is consistent with Glispa's branding. 
 
 - [Logo](/static/GlispaLogo.png)
-- [Colors](https://designsystem.avodsp.com/colors)
+- [Glispa Foundations](https://www.figma.com/file/xNnYn7XUnnnE1hWnjgFcpX/Glispa-Foundations?node-id=0%3A1)
 - Typeface: Source Sans Pro
 
 # Deliverables
