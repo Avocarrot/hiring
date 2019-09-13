@@ -2,12 +2,13 @@
 
 # About {{site.companyName}} 
 
-{{site.companyName}} is a mobile ad tech company fully dedicated to empowering our partners with sophisticated solutions. We make it simple for agencies and brands to connect with target audiences and for publishers to monetize their apps. 
+We are an International group of companies with extensive portfolios in the ad-tech as well as the eCommerce business spaces.
 
-We are growing at a fast pace and looking for exceptional software engineers, UI/UX designers and product managers to help us keep up with the requirements of a product that needs to handle billions of requests each month.
+We have multiple brands combining innovative eCommerce platforms with unique programmatic exchange & mediation solution for publishers and advertisers across the most relevant demand sources.
 
-- We are serving more than 200+ billion ad requests / month
-- Our team is distributed in 7 offices (Athens, Berlin, Tel Aviv, Nicosia, Beijing, Sao Paolo, San Francisco)
+We have a vision to be the number one company that can provide B2B customers in the eCommerce industry an end-to-end solution that can assist them both in the technical aspect and can provide a holistic solution driving traffic into their apps.
+
+We are a group of 250 people world-wide with branches all over the world in Vienna, Tel Aviv, Berlin, Cyprus, Minsk, Athens, US, UK and many more.
 
 Please read our Candidate FAQ [here](faq.md).
 
