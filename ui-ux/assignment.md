@@ -46,6 +46,6 @@ It is **not** a requirement but it would be nice if the interface is consistent 
 
 # Deliverables
 
-1. A User Interface showcasing how the app will look and function (The level of detail is open-ended and can span from a simple wireframe to a full mockup).
+1. A User Interface showcasing how the app will look and function. This can range from low-level wireframe(s) to high-level high-fidelity design(s). 
 2. A short paragraph articulating the design thinking behind this solution. 
-3. (Optional) Any ideation phase artifacts (User flows, site-maps) etc. 
+3. Please include any ideation phase artifacts (User flows, site-maps) etc.
